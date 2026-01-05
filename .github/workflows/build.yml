@@ -1,0 +1,159 @@
+name: Build FreeBSD Container
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['*.md', 'LICENSE', '.gitignore']
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: homepage
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Detect Containerfiles
+        id: set-matrix
+        run: |
+          entries=""
+          has_source="false"
+
+          if [ -f "Containerfile" ]; then
+            if grep -q 'io.daemonless.pkg-source="containerfile"' Containerfile; then
+              has_source="true"
+              entries+='{"containerfile":"Containerfile","tag":"pkg","base_version":"15-quarterly","version_suffix":"-pkg","push_latest":""},'
+              entries+='{"containerfile":"Containerfile","tag":"pkg-latest","base_version":"15","version_suffix":"-pkg-latest","push_latest":"--alias latest"},'
+            else
+              has_source="true"
+              entries+='{"containerfile":"Containerfile","tag":"latest","base_version":"","version_suffix":"","push_latest":""},'
+            fi
+          fi
+
+          if [ -f "Containerfile.pkg" ]; then
+            entries+='{"containerfile":"Containerfile.pkg","tag":"pkg","base_version":"15-quarterly","version_suffix":"-pkg","push_latest":""},'
+            if [ "$has_source" = "false" ]; then
+              entries+='{"containerfile":"Containerfile.pkg","tag":"pkg-latest","base_version":"15","version_suffix":"-pkg-latest","push_latest":"--push-latest"},'
+            else
+              entries+='{"containerfile":"Containerfile.pkg","tag":"pkg-latest","base_version":"15","version_suffix":"-pkg-latest","push_latest":""},'
+            fi
+          fi
+
+          entries="${entries%,}"
+          matrix="{\"include\":[${entries}]}"
+          echo "Detected matrix: $matrix"
+          echo "matrix=$matrix" >> $GITHUB_OUTPUT
+
+  build:
+    needs: detect
+    if: ${{ needs.detect.outputs.matrix != '{"include":[]}' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.detect.outputs.matrix) }}
+
+    steps:
+      - name: Free disk space
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          swap-storage: false
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare VM data directory
+        run: sudo mkdir -p /mnt/freebsd-vm && sudo chmod 777 /mnt/freebsd-vm
+
+      - name: Build and Test in FreeBSD VM (${{ matrix.tag }})
+        uses: vmactions/freebsd-vm@v1.3.5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_ACTOR: ${{ github.actor }}
+        with:
+          release: "15.0"
+          usesh: true
+          copyback: false
+          data-dir: /mnt/freebsd-vm
+          envs: "GITHUB_TOKEN GITHUB_ACTOR"
+          prepare: |
+            # Create 4GB swap for heavy builds
+            dd if=/dev/zero of=/swapfile bs=1m count=4096
+            chmod 0600 /swapfile
+            mdconfig -a -t vnode -f /swapfile -u 0
+            swapon /dev/md0
+
+            # Build deps
+            pkg install -y podman
+
+            # Test deps (cit)
+            pkg install -y python3 py311-selenium py311-scikit-image chromium
+
+            # Install patched ocijail for .NET apps (mlock support)
+            fetch -qo /tmp/ocijail.pkg https://github.com/daemonless/freebsd-ports/releases/download/v0.4.0-patched/ocijail-0.4.0_2.pkg
+            pkg install -fy /tmp/ocijail.pkg
+
+            rm -rf /var/db/containers /var/lib/containers 2>/dev/null || true
+            kldload pf
+            sysctl net.inet.ip.forwarding=1
+            sysctl kern.ipc.shm_allow_removed=1
+          run: |
+            set -e
+
+            # Download shared build script
+            mkdir -p scripts
+            fetch -qo scripts/build.sh \
+              "https://raw.githubusercontent.com/daemonless/daemonless/build-v1.5.0/scripts/build.sh"
+            chmod +x scripts/build.sh
+
+            PUSH_FLAG=""
+            if [ "${{ github.event_name }}" != "pull_request" ]; then
+              PUSH_FLAG="--login --push"
+            fi
+
+            BASE_VERSION_ARG=""
+            if [ -n "${{ matrix.base_version }}" ]; then
+              BASE_VERSION_ARG="--base-version ${{ matrix.base_version }}"
+            fi
+
+            # Build
+            ./scripts/build.sh \
+              --registry ${{ env.REGISTRY }} \
+              --image ${{ env.REGISTRY }}/daemonless/${{ env.IMAGE_NAME }} \
+              --containerfile ${{ matrix.containerfile }} \
+              $BASE_VERSION_ARG \
+              --tag ${{ matrix.tag }} \
+              --tag-version \
+              --version-suffix "${{ matrix.version_suffix }}" \
+              ${{ matrix.push_latest }} \
+              --skip-wip \
+              $PUSH_FLAG
+
+            # Test with cit (non-PR only)
+            if [ "${{ github.event_name }}" != "pull_request" ]; then
+              echo "=== Running cit tests ==="
+              fetch -qo - https://github.com/daemonless/cit/releases/download/v0.1.2/cit-0.1.2.tar.gz | tar xz
+
+              ./cit-0.1.2/cit ${{ env.REGISTRY }}/daemonless/${{ env.IMAGE_NAME }}:${{ matrix.tag }} \
+                --repo . \
+                --screenshot /tmp/${{ env.IMAGE_NAME }}-${{ matrix.tag }}.png \
+                --verify \
+                --verbose
+            fi
