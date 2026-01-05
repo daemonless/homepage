@@ -15,9 +15,5 @@ fi
 
 cd "$APP_DIR"
 
-# Source build uses next start, pkg build has server.js
-if [ -f server.js ]; then
-    exec /usr/local/bin/s6-setuidgid bsd /usr/local/bin/node server.js
-else
-    exec /usr/local/bin/s6-setuidgid bsd ./node_modules/.bin/next start
-fi
+# Both pkg and source builds have server.js
+exec /usr/local/bin/s6-setuidgid bsd /usr/local/bin/node server.js
