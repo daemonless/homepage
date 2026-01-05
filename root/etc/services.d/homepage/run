@@ -1,0 +1,23 @@
+#!/bin/sh
+# Homepage s6 service
+
+export HOME=/config
+export PATH="/usr/local/bin:/usr/bin:/bin"
+export PORT="${PORT:-3000}"
+export HOMEPAGE_ALLOWED_HOSTS="${HOMEPAGE_ALLOWED_HOSTS:-*}"
+
+# Determine app directory
+if [ -d /app ]; then
+    APP_DIR=/app
+else
+    APP_DIR=/usr/local/www/homepage
+fi
+
+cd "$APP_DIR"
+
+# Source build uses next start, pkg build has server.js
+if [ -f server.js ]; then
+    exec /usr/local/bin/s6-setuidgid bsd /usr/local/bin/node server.js
+else
+    exec /usr/local/bin/s6-setuidgid bsd ./node_modules/.bin/next start
+fi

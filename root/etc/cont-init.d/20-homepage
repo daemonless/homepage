@@ -1,0 +1,29 @@
+#!/bin/sh
+# Homepage config initialization
+
+# Determine app directory (source build vs pkg)
+if [ -d /app ]; then
+    APP_DIR=/app
+    SKELETON_DIR=/app/src/skeleton
+else
+    APP_DIR=/usr/local/www/homepage
+    SKELETON_DIR=/usr/local/www/homepage/src/skeleton
+fi
+
+cd "$APP_DIR"
+
+# Link config directory
+if [ ! -L config ] || [ "$(readlink config)" != "/config" ]; then
+    rm -rf config
+    ln -s /config config
+fi
+
+# Create default config files if they don't exist
+if [ ! -f /config/settings.yaml ] && [ -d "$SKELETON_DIR" ]; then
+    cp -n "$SKELETON_DIR"/* /config/ 2>/dev/null || true
+fi
+
+# Ensure config is owned by bsd user
+/usr/sbin/chown -R bsd:bsd /config
+
+echo "[homepage] Config initialized"
