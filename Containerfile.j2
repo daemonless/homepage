@@ -25,21 +25,32 @@ FROM ghcr.io/daemonless/base:${BASE_VERSION}
 
 ARG UPSTREAM_URL="https://api.github.com/repos/gethomepage/homepage/releases/latest"
 ARG UPSTREAM_JQ=".tag_name"
+{%- if ports %}
+ARG HEALTHCHECK_ENDPOINT="http://localhost:{{ ports[0].port }}/"
+{%- else %}
 ARG HEALTHCHECK_ENDPOINT="http://localhost:3000/"
+{%- endif %}
 
 ENV HEALTHCHECK_URL="${HEALTHCHECK_ENDPOINT}"
 
 # --- Metadata (Injected by Generator) ---
-LABEL org.opencontainers.image.title="Homepage" \
-      org.opencontainers.image.description="A modern, highly customizable dashboard for your homelab." \
-      org.opencontainers.image.source="https://github.com/daemonless/homepage" \
-      org.opencontainers.image.url="https://gethomepage.dev/" \
+LABEL org.opencontainers.image.title="{{ title }}" \
+      org.opencontainers.image.description="{{ description }}" \
+      org.opencontainers.image.source="{{ repo_url }}" \
+      org.opencontainers.image.url="{{ web_url }}" \
       org.opencontainers.image.licenses="GPL-3.0" \
       org.opencontainers.image.vendor="daemonless" \
       org.opencontainers.image.authors="daemonless" \
-      io.daemonless.category="Utilities" \
-      io.daemonless.port="3000" \
-      io.daemonless.volumes="/config" \
+      io.daemonless.category="{{ category }}" \
+{%- if ports %}
+      io.daemonless.port="{{ ports[0].port }}" \
+{%- endif %}
+{%- if volumes %}
+      io.daemonless.volumes="{{ volumes | map(attribute='path') | join(',') }}" \
+{%- endif %}
+{%- if mlock %}
+      org.freebsd.jail.allow.mlock="required" \
+{%- endif %}
       io.daemonless.upstream-mode="source" \
       io.daemonless.upstream-url="${UPSTREAM_URL}" \
       io.daemonless.upstream-jq="${UPSTREAM_JQ}" \
@@ -70,7 +81,11 @@ COPY root/ /
 RUN chmod +x /etc/services.d/homepage/run /etc/cont-init.d/*
 
 # --- Expose (Injected by Generator) ---
-EXPOSE 3000
+{%- if ports %}
+EXPOSE {{ ports | map(attribute='port') | join(' ') }}
+{%- endif %}
 
 # --- Volumes (Injected by Generator) ---
-VOLUME /config
+{%- if volumes %}
+VOLUME {{ volumes | map(attribute='path') | join(' ') }}
+{%- endif %}

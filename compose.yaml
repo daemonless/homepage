@@ -1,0 +1,39 @@
+name: homepage
+
+x-daemonless:
+  title: "Homepage"
+  icon: ":material-view-dashboard:"
+  category: "Utilities"
+  description: "A modern, highly customizable dashboard for your homelab."
+  upstream_url: "https://github.com/gethomepage/homepage"
+  web_url: "https://gethomepage.dev/"
+  freshports_url: "https://www.freshports.org/www/homepage/"
+  user: "bsd"
+  mlock: false
+  
+  docs:
+    env:
+      PUID: "User ID for the application process"
+      PGID: "Group ID for the application process"
+      TZ: "Timezone for the container"
+    volumes:
+      /config: "Configuration directory (settings, bookmarks, services)"
+    ports:
+      3000: "Web UI"
+
+services:
+  homepage:
+    image: ghcr.io/daemonless/homepage:latest
+    container_name: homepage
+    restart: unless-stopped
+    
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+
+    volumes:
+      - /path/to/containers/homepage:/config
+
+    ports:
+      - 3000:3000
