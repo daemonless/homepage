@@ -52,9 +52,9 @@ Access at: `http://localhost:3000`
     state: started
     restart_policy: always
     env:
-      PUID: "1000"
-      PGID: "1000"
-      TZ: "UTC"
+      PUID: "@PUID@"
+      PGID: "@PGID@"
+      TZ: "@TZ@"
     ports:
       - "3000:3000"
     volumes:
@@ -62,7 +62,6 @@ Access at: `http://localhost:3000`
 ```
 
 ## Configuration
-
 ### Environment Variables
 
 | Variable | Default | Description |
@@ -70,13 +69,11 @@ Access at: `http://localhost:3000`
 | `PUID` | `1000` | User ID for the application process |
 | `PGID` | `1000` | Group ID for the application process |
 | `TZ` | `UTC` | Timezone for the container |
-
 ### Volumes
 
 | Path | Description |
 |------|-------------|
 | `/config` | Configuration directory (settings, bookmarks, services) |
-
 ### Ports
 
 | Port | Protocol | Description |
