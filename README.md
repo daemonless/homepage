@@ -11,6 +11,7 @@ A modern, highly customizable dashboard for your homelab.
 |---|---|
 | **Port** | 3000 |
 | **Registry** | `ghcr.io/daemonless/homepage` |
+| **Docs** | [daemonless.io/images/homepage](https://daemonless.io/images/homepage/) |
 | **Source** | [https://github.com/gethomepage/homepage](https://github.com/gethomepage/homepage) |
 | **Website** | [https://gethomepage.dev/](https://gethomepage.dev/) |
 
