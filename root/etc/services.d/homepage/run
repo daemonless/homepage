@@ -6,8 +6,8 @@ export PATH="/usr/local/bin:/usr/bin:/bin"
 export PORT="${PORT:-3000}"
 export HOMEPAGE_ALLOWED_HOSTS="${HOMEPAGE_ALLOWED_HOSTS:-*}"
 
-# Determine app directory
-if [ -d /app ]; then
+# Determine app directory (check for actual app, not just /app existing)
+if [ -f /app/server.js ]; then
     APP_DIR=/app
 else
     APP_DIR=/usr/local/www/homepage
