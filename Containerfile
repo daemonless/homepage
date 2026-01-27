@@ -55,7 +55,7 @@ LABEL org.opencontainers.image.title="Homepage" \
 RUN pkg update && \
     pkg install -y node22 && \
     pkg clean -ay && \
-    rm -rf /var/cache/pkg/*
+    rm -rf /var/cache/pkg/* /var/db/pkg/repos/*
 
 # Copy standalone build output from builder
 WORKDIR /app
