@@ -1,12 +1,12 @@
 {
   "image": "homepage",
-  "generated": "2026-02-14T15:17:28Z",
+  "generated": "2026-02-17T20:00:20Z",
   "tags": {
     "latest": {
       "arch": "amd64",
       "app_version": "v1.10.1",
       "source": "upstream",
-      "generated": "2026-02-14T15:17:13Z",
+      "generated": "2026-02-17T20:00:00Z",
       "packages": {
         "freebsd": [
           {
@@ -175,7 +175,7 @@
           },
           {
             "name": "node22",
-            "version": "22.21.1"
+            "version": "22.22.0"
           },
           {
             "name": "oniguruma",
@@ -1041,7 +1041,7 @@
       "arch": "amd64",
       "app_version": "1.8.0",
       "source": "pkg",
-      "generated": "2026-02-14T15:11:29Z",
+      "generated": "2026-02-17T19:56:33Z",
       "packages": {
         "freebsd": [
           {
@@ -1206,7 +1206,7 @@
           },
           {
             "name": "libuv",
-            "version": "1.51.0"
+            "version": "1.52.0"
           },
           {
             "name": "llhttp",
@@ -2008,7 +2008,7 @@
       "arch": "amd64",
       "app_version": "1.8.0",
       "source": "pkg",
-      "generated": "2026-02-14T15:12:22Z",
+      "generated": "2026-02-17T19:55:38Z",
       "packages": {
         "freebsd": [
           {
@@ -2181,7 +2181,7 @@
           },
           {
             "name": "node24",
-            "version": "24.12.0"
+            "version": "24.13.0"
           },
           {
             "name": "oniguruma",
