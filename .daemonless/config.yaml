@@ -1,5 +1,9 @@
 icon: ':material-view-dashboard:'
 
+cit:
+  mode: screenshot
+  port: 3000
+
 build:
   variants:
     - tag: latest
