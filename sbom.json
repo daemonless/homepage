@@ -1,12 +1,12 @@
 {
   "image": "homepage",
-  "generated": "2026-03-04T08:28:45Z",
+  "generated": "2026-03-15T08:40:47Z",
   "tags": {
     "latest": {
       "arch": "amd64",
-      "app_version": "v1.10.1",
+      "app_version": "v1.11.0",
       "source": "upstream",
-      "generated": "2026-03-04T08:28:29Z",
+      "generated": "2026-03-15T08:40:32Z",
       "packages": {
         "freebsd": [
           {
@@ -216,7 +216,7 @@
         "node": [
           {
             "name": "@babel/runtime",
-            "version": "7.26.9"
+            "version": "7.27.6"
           },
           {
             "name": "@balena/dockerignore",
@@ -436,7 +436,7 @@
           },
           {
             "name": "core-js",
-            "version": "3.40.0"
+            "version": "3.48.0"
           },
           {
             "name": "core-util-is",
@@ -548,7 +548,7 @@
           },
           {
             "name": "homepage",
-            "version": "1.10.1"
+            "version": "1.11.0"
           },
           {
             "name": "html-parse-stringify",
@@ -564,15 +564,15 @@
           },
           {
             "name": "i18next",
-            "version": "21.10.0"
+            "version": "25.8.0"
           },
           {
             "name": "i18next-fs-backend",
-            "version": "1.2.0"
+            "version": "2.6.1"
           },
           {
             "name": "ical.js",
-            "version": "2.1.0"
+            "version": "2.2.1"
           },
           {
             "name": "iconv-lite",
@@ -700,7 +700,7 @@
           },
           {
             "name": "next-i18next",
-            "version": "12.1.0"
+            "version": "15.4.3"
           },
           {
             "name": "node-fetch",
@@ -768,15 +768,15 @@
           },
           {
             "name": "react",
-            "version": "18.3.1"
+            "version": "19.2.4"
           },
           {
             "name": "react-dom",
-            "version": "18.3.1"
+            "version": "19.2.4"
           },
           {
             "name": "react-i18next",
-            "version": "11.18.6"
+            "version": "15.5.3"
           },
           {
             "name": "react-is",
@@ -824,7 +824,7 @@
           },
           {
             "name": "scheduler",
-            "version": "0.23.2"
+            "version": "0.27.0"
           },
           {
             "name": "seek-bzip",
@@ -1041,7 +1041,7 @@
       "arch": "amd64",
       "app_version": "1.10.1",
       "source": "pkg",
-      "generated": "2026-03-04T08:24:21Z",
+      "generated": "2026-03-15T08:36:01Z",
       "packages": {
         "freebsd": [
           {
@@ -1170,11 +1170,11 @@
           },
           {
             "name": "corepack",
-            "version": "0.34.5"
+            "version": "0.34.6"
           },
           {
             "name": "execline",
-            "version": "2.9.7.0"
+            "version": "2.9.8.1"
           },
           {
             "name": "homepage",
@@ -1202,11 +1202,11 @@
           },
           {
             "name": "libnghttp3",
-            "version": "1.14.0"
+            "version": "1.15.0"
           },
           {
             "name": "libngtcp2",
-            "version": "1.19.0"
+            "version": "1.20.0"
           },
           {
             "name": "libuv",
@@ -1214,7 +1214,7 @@
           },
           {
             "name": "llhttp",
-            "version": "9.3.0"
+            "version": "9.3.1"
           },
           {
             "name": "node24",
@@ -1226,15 +1226,15 @@
           },
           {
             "name": "pkg",
-            "version": "2.6.0"
+            "version": "2.6.2"
           },
           {
             "name": "s6",
-            "version": "2.13.2.0"
+            "version": "2.14.0.1"
           },
           {
             "name": "s6-rc",
-            "version": "0.5.6.0"
+            "version": "0.6.0.0"
           },
           {
             "name": "simdjson",
@@ -1242,7 +1242,7 @@
           },
           {
             "name": "skalibs",
-            "version": "2.14.4.0"
+            "version": "2.14.5.1"
           },
           {
             "name": "sqlite3",
@@ -1507,7 +1507,7 @@
           },
           {
             "name": "corepack",
-            "version": "0.34.5"
+            "version": "0.34.6"
           },
           {
             "name": "cpu-features",
@@ -2104,7 +2104,7 @@
       "arch": "amd64",
       "app_version": "1.8.0",
       "source": "pkg",
-      "generated": "2026-03-04T08:24:09Z",
+      "generated": "2026-03-15T08:35:40Z",
       "packages": {
         "freebsd": [
           {
