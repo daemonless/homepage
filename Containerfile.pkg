@@ -15,7 +15,7 @@ ENV HEALTHCHECK_URL="${HEALTHCHECK_ENDPOINT}"
 
 # --- Metadata (Injected by Generator) ---
 LABEL org.opencontainers.image.title="Homepage" \
-      org.opencontainers.image.description="A modern, highly customizable dashboard for your homelab." \
+      org.opencontainers.image.description="Modern, fully static, fast, secure and highly customizable application dashboard with integrations for over 100 services." \
       org.opencontainers.image.source="https://github.com/daemonless/homepage" \
       org.opencontainers.image.url="https://gethomepage.dev/" \
       org.opencontainers.image.licenses="GPL-3.0" \
