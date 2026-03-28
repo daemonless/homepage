@@ -1,28 +1,9 @@
 # syntax=docker/dockerfile:1
 ARG BASE_VERSION=15
 
-# Build stage
-FROM ghcr.io/daemonless/base:${BASE_VERSION} AS builder
+# Extract pre-built app from official upstream image
+FROM --platform=linux/amd64 ghcr.io/gethomepage/homepage:latest AS upstream
 
-# Install build dependencies
-RUN pkg update && \
-    pkg install -y node22 npm-node22 jq && \
-    npm install -g pnpm
-
-# Download and build homepage
-WORKDIR /build
-RUN HOMEPAGE_VERSION=$(fetch -qo - "https://api.github.com/repos/gethomepage/homepage/releases/latest" | jq -r '.tag_name' | sed 's/^v//') && \
-    echo "Building homepage v${HOMEPAGE_VERSION}" && \
-    fetch -qo homepage.tar.gz "https://github.com/gethomepage/homepage/archive/refs/tags/v${HOMEPAGE_VERSION}.tar.gz" && \
-    tar xzf homepage.tar.gz --strip-components=1 && \
-    rm homepage.tar.gz && \
-    pnpm install --frozen-lockfile && \
-    pnpm add next@15.5.12 && \
-    sed -i '' 's/next build --webpack/next build/g' package.json && \
-    pnpm build && \
-    echo "v${HOMEPAGE_VERSION}" > /build/version
-
-# Final stage
 FROM ghcr.io/daemonless/base:${BASE_VERSION}
 
 ARG UPSTREAM_URL="https://api.github.com/repos/gethomepage/homepage/releases/latest"
@@ -64,13 +45,12 @@ RUN pkg update && \
     pkg clean -ay && \
     rm -rf /var/cache/pkg/* /var/db/pkg/repos/*
 
-# Copy standalone build output from builder
+# Copy pre-built app from official upstream image
 WORKDIR /app
-COPY --from=builder /build/.next/standalone/ /app/
-COPY --from=builder /build/.next/static /app/.next/static
-COPY --from=builder /build/public /app/public
-COPY --from=builder /build/src/skeleton /app/src/skeleton
-COPY --from=builder /build/version /app/version
+COPY --from=upstream /app/ /app/
+
+# Write version from package.json
+RUN node -e "process.stdout.write(require('/app/package.json').version)" > /app/version
 
 # Create config directory
 RUN mkdir -p /config && \
