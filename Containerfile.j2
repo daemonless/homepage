@@ -18,6 +18,7 @@ RUN HOMEPAGE_VERSION=$(fetch -qo - "https://api.github.com/repos/gethomepage/hom
     rm homepage.tar.gz && \
     pnpm install --frozen-lockfile && \
     pnpm add next@15.5.12 && \
+    sed -i '' 's/next build --webpack/next build/g' package.json && \
     pnpm build && \
     echo "v${HOMEPAGE_VERSION}" > /build/version
 

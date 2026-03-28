@@ -3,6 +3,7 @@ icon: ':material-view-dashboard:'
 cit:
   mode: screenshot
   port: 3000
+  ready: "Ready in"
 
 build:
   variants:
