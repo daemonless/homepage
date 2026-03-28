@@ -1,12 +1,12 @@
 {
   "image": "homepage",
-  "generated": "2026-03-28T08:47:32Z",
+  "generated": "2026-03-28T09:53:48Z",
   "tags": {
     "latest": {
       "arch": "amd64",
-      "app_version": "v1.12.1",
+      "app_version": "1.12.0",
       "source": "upstream",
-      "generated": "2026-03-28T08:47:15Z",
+      "generated": "2026-03-28T09:53:08Z",
       "packages": {
         "freebsd": [
           {
@@ -259,6 +259,22 @@
             "version": "1.1.0"
           },
           {
+            "name": "@img/sharp-libvips-linux-x64",
+            "version": "1.2.4"
+          },
+          {
+            "name": "@img/sharp-libvips-linuxmusl-x64",
+            "version": "1.2.4"
+          },
+          {
+            "name": "@img/sharp-linux-x64",
+            "version": "0.34.5"
+          },
+          {
+            "name": "@img/sharp-linuxmusl-x64",
+            "version": "0.34.5"
+          },
+          {
             "name": "@js-sdsl/ordered-map",
             "version": "4.4.2"
           },
@@ -268,7 +284,7 @@
           },
           {
             "name": "@next/env",
-            "version": "15.5.12"
+            "version": "16.1.7"
           },
           {
             "name": "@protobufjs/aspromise",
@@ -345,6 +361,10 @@
           {
             "name": "barse",
             "version": "0.4.3"
+          },
+          {
+            "name": "baseline-browser-mapping",
+            "version": "2.10.8"
           },
           {
             "name": "bcrypt-pbkdf",
@@ -608,7 +628,7 @@
           },
           {
             "name": "next",
-            "version": "15.5.12"
+            "version": "16.1.7"
           },
           {
             "name": "next-i18next",
@@ -909,19 +929,19 @@
         "dotnet": 0,
         "go": 0,
         "java": 0,
-        "node": 170,
+        "node": 175,
         "php": 0,
         "python": 0,
         "ruby": 0,
         "rust": 0,
-        "total": 221
+        "total": 226
       }
     },
     "pkg-latest": {
       "arch": "amd64",
       "app_version": "1.10.1",
       "source": "pkg",
-      "generated": "2026-03-28T08:42:23Z",
+      "generated": "2026-03-28T09:53:02Z",
       "packages": {
         "freebsd": [
           {
@@ -2008,7 +2028,7 @@
       "arch": "amd64",
       "app_version": "1.8.0",
       "source": "pkg",
-      "generated": "2026-03-28T08:41:55Z",
+      "generated": "2026-03-28T09:53:36Z",
       "packages": {
         "freebsd": [
           {
