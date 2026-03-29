@@ -1,12 +1,12 @@
 {
   "image": "homepage",
-  "generated": "2026-03-29T10:17:16Z",
+  "generated": "2026-03-29T11:01:50Z",
   "tags": {
     "latest": {
       "arch": "amd64",
       "app_version": "1.12.0",
       "source": "upstream",
-      "generated": "2026-03-29T10:15:47Z",
+      "generated": "2026-03-29T11:01:34Z",
       "packages": {
         "freebsd": [
           {
@@ -941,7 +941,7 @@
       "arch": "amd64",
       "app_version": "1.10.1",
       "source": "pkg",
-      "generated": "2026-03-29T10:17:03Z",
+      "generated": "2026-03-29T11:01:01Z",
       "packages": {
         "freebsd": [
           {
@@ -2028,7 +2028,7 @@
       "arch": "amd64",
       "app_version": "1.8.0",
       "source": "pkg",
-      "generated": "2026-03-29T10:15:34Z",
+      "generated": "2026-03-29T11:01:32Z",
       "packages": {
         "freebsd": [
           {
