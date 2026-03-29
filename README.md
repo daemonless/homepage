@@ -10,7 +10,6 @@ Source: dbuild templates
 
 Modern, fully static, fast, secure and highly customizable application dashboard with integrations for over 100 services.
 
-
 | | |
 |---|---|
 | **Port** | 3000 |

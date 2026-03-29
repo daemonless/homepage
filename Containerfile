@@ -6,9 +6,10 @@
 
 # syntax=docker/dockerfile:1
 ARG BASE_VERSION=15
+ARG APP_VERSION=latest
 
 # Extract pre-built app from official upstream image
-FROM --platform=linux/amd64 ghcr.io/gethomepage/homepage:latest AS upstream
+FROM --platform=linux/amd64 ghcr.io/gethomepage/homepage:${APP_VERSION} AS upstream
 
 FROM ghcr.io/daemonless/base:${BASE_VERSION}
 
