@@ -1,12 +1,12 @@
 {
   "image": "homepage",
-  "generated": "2026-03-31T14:59:05Z",
+  "generated": "2026-04-01T21:28:55Z",
   "tags": {
     "latest": {
       "arch": "amd64",
-      "app_version": "1.12.2",
+      "app_version": "1.12.3",
       "source": "upstream",
-      "generated": "2026-03-31T14:57:03Z",
+      "generated": "2026-04-01T21:27:34Z",
       "packages": {
         "freebsd": [
           {
@@ -508,7 +508,7 @@
           },
           {
             "name": "homepage",
-            "version": "1.12.2"
+            "version": "1.12.3"
           },
           {
             "name": "html-parse-stringify",
@@ -941,7 +941,7 @@
       "arch": "amd64",
       "app_version": "1.10.1",
       "source": "pkg",
-      "generated": "2026-03-31T14:57:07Z",
+      "generated": "2026-04-01T21:26:26Z",
       "packages": {
         "freebsd": [
           {
@@ -1138,7 +1138,7 @@
           },
           {
             "name": "node24",
-            "version": "24.14.0_1"
+            "version": "24.14.0_2"
           },
           {
             "name": "oniguruma",
@@ -1158,7 +1158,7 @@
           },
           {
             "name": "simdjson",
-            "version": "4.4.2"
+            "version": "4.5.0"
           },
           {
             "name": "simdutf",
@@ -2028,7 +2028,7 @@
       "arch": "amd64",
       "app_version": "1.8.0",
       "source": "pkg",
-      "generated": "2026-03-31T14:57:53Z",
+      "generated": "2026-04-01T21:26:21Z",
       "packages": {
         "freebsd": [
           {
