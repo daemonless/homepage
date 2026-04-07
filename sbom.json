@@ -1,13 +1,13 @@
 {
+  "generated": "2026-04-07T14:58:33Z",
   "image": "homepage",
-  "generated": "2026-04-01T21:28:55Z",
   "tags": {
     "latest": {
-      "arch": "amd64",
       "app_version": "1.12.3",
-      "source": "upstream",
-      "generated": "2026-04-01T21:27:34Z",
+      "arch": "amd64",
+      "generated": "2026-04-07T14:49:51Z",
       "packages": {
+        "dotnet": [],
         "freebsd": [
           {
             "name": "FreeBSD-audit-lib",
@@ -139,7 +139,7 @@
           },
           {
             "name": "corepack",
-            "version": "0.34.5"
+            "version": "0.34.6"
           },
           {
             "name": "execline",
@@ -154,6 +154,10 @@
             "version": "1.8.1"
           },
           {
+            "name": "libada",
+            "version": "3.4.3"
+          },
+          {
             "name": "libedit",
             "version": "3.1.20251016_1,1"
           },
@@ -163,23 +167,23 @@
           },
           {
             "name": "libnghttp3",
-            "version": "1.14.0"
+            "version": "1.15.0"
           },
           {
             "name": "libngtcp2",
-            "version": "1.19.0"
+            "version": "1.21.0"
           },
           {
             "name": "libuv",
-            "version": "1.51.0"
+            "version": "1.52.0"
           },
           {
             "name": "llhttp",
-            "version": "9.3.0"
+            "version": "9.3.1"
           },
           {
             "name": "node22",
-            "version": "22.22.0"
+            "version": "22.22.1_2"
           },
           {
             "name": "oniguruma",
@@ -187,19 +191,15 @@
           },
           {
             "name": "pkg",
-            "version": "2.5.1"
+            "version": "2.6.2_1"
           },
           {
             "name": "s6",
             "version": "2.13.2.0"
           },
           {
-            "name": "s6-rc",
-            "version": "0.5.6.0"
-          },
-          {
             "name": "simdjson",
-            "version": "4.2.4"
+            "version": "4.5.0"
           },
           {
             "name": "skalibs",
@@ -210,11 +210,14 @@
             "version": "3.50.4_2,1"
           },
           {
+            "name": "uvwasi",
+            "version": "0.0.23"
+          },
+          {
             "name": "zstd",
             "version": "1.5.7_1"
           }
         ],
-        "dotnet": [],
         "go": [],
         "java": [],
         "node": [
@@ -412,7 +415,7 @@
           },
           {
             "name": "corepack",
-            "version": "0.34.5"
+            "version": "0.34.6"
           },
           {
             "name": "cpu-features",
@@ -924,9 +927,10 @@
         "ruby": [],
         "rust": []
       },
+      "source": "upstream",
       "summary": {
-        "freebsd": 51,
         "dotnet": 0,
+        "freebsd": 52,
         "go": 0,
         "java": 0,
         "node": 175,
@@ -934,15 +938,15 @@
         "python": 0,
         "ruby": 0,
         "rust": 0,
-        "total": 226
+        "total": 227
       }
     },
-    "pkg-latest": {
-      "arch": "amd64",
+    "pkg": {
       "app_version": "1.10.1",
-      "source": "pkg",
-      "generated": "2026-04-01T21:26:26Z",
+      "arch": "amd64",
+      "generated": "2026-04-07T14:53:43Z",
       "packages": {
+        "dotnet": [],
         "freebsd": [
           {
             "name": "FreeBSD-audit-lib",
@@ -1078,7 +1082,7 @@
           },
           {
             "name": "execline",
-            "version": "2.9.8.1"
+            "version": "2.9.7.0"
           },
           {
             "name": "googletest",
@@ -1150,11 +1154,7 @@
           },
           {
             "name": "s6",
-            "version": "2.14.0.1"
-          },
-          {
-            "name": "s6-rc",
-            "version": "0.6.0.0"
+            "version": "2.13.2.0"
           },
           {
             "name": "simdjson",
@@ -1166,7 +1166,7 @@
           },
           {
             "name": "skalibs",
-            "version": "2.14.5.1"
+            "version": "2.14.4.0"
           },
           {
             "name": "sqlite3",
@@ -1181,7 +1181,6 @@
             "version": "1.5.7_1"
           }
         ],
-        "dotnet": [],
         "go": [],
         "java": [],
         "node": [
@@ -2011,9 +2010,10 @@
         "ruby": [],
         "rust": []
       },
+      "source": "pkg",
       "summary": {
-        "freebsd": 59,
         "dotnet": 0,
+        "freebsd": 58,
         "go": 0,
         "java": 0,
         "node": 205,
@@ -2021,15 +2021,15 @@
         "python": 0,
         "ruby": 0,
         "rust": 0,
-        "total": 264
+        "total": 263
       }
     },
-    "pkg": {
+    "pkg-latest": {
+      "app_version": "1.10.1",
       "arch": "amd64",
-      "app_version": "1.8.0",
-      "source": "pkg",
-      "generated": "2026-04-01T21:26:21Z",
+      "generated": "2026-04-07T14:48:10Z",
       "packages": {
+        "dotnet": [],
         "freebsd": [
           {
             "name": "FreeBSD-audit-lib",
@@ -2161,15 +2161,23 @@
           },
           {
             "name": "corepack",
-            "version": "0.34.5"
+            "version": "0.34.6"
           },
           {
             "name": "execline",
-            "version": "2.9.7.0"
+            "version": "2.9.8.1"
+          },
+          {
+            "name": "googletest",
+            "version": "1.16.0"
+          },
+          {
+            "name": "hdr_histogram",
+            "version": "0.11.9"
           },
           {
             "name": "homepage",
-            "version": "1.8.0"
+            "version": "1.10.1"
           },
           {
             "name": "icu",
@@ -2178,6 +2186,10 @@
           {
             "name": "jq",
             "version": "1.8.1"
+          },
+          {
+            "name": "libada",
+            "version": "3.4.4"
           },
           {
             "name": "libedit",
@@ -2189,23 +2201,31 @@
           },
           {
             "name": "libnghttp3",
-            "version": "1.14.0"
+            "version": "1.15.0"
           },
           {
             "name": "libngtcp2",
-            "version": "1.19.0"
+            "version": "1.21.0"
           },
           {
             "name": "libuv",
-            "version": "1.51.0"
+            "version": "1.52.0"
           },
           {
             "name": "llhttp",
-            "version": "9.3.0"
+            "version": "9.3.1"
+          },
+          {
+            "name": "merve",
+            "version": "1.2.0_1"
+          },
+          {
+            "name": "nbytes",
+            "version": "0.1.3"
           },
           {
             "name": "node24",
-            "version": "24.13.0"
+            "version": "24.14.0_2"
           },
           {
             "name": "oniguruma",
@@ -2213,34 +2233,37 @@
           },
           {
             "name": "pkg",
-            "version": "2.5.1"
+            "version": "2.6.2_1"
           },
           {
             "name": "s6",
-            "version": "2.13.2.0"
-          },
-          {
-            "name": "s6-rc",
-            "version": "0.5.6.0"
+            "version": "2.14.0.1"
           },
           {
             "name": "simdjson",
-            "version": "4.2.4"
+            "version": "4.5.0"
+          },
+          {
+            "name": "simdutf",
+            "version": "8.2.0"
           },
           {
             "name": "skalibs",
-            "version": "2.14.4.0"
+            "version": "2.14.5.1"
           },
           {
             "name": "sqlite3",
             "version": "3.50.4_2,1"
           },
           {
+            "name": "uvwasi",
+            "version": "0.0.23"
+          },
+          {
             "name": "zstd",
             "version": "1.5.7_1"
           }
         ],
-        "dotnet": [],
         "go": [],
         "java": [],
         "node": [
@@ -2258,7 +2281,7 @@
           },
           {
             "name": "@dabh/diagnostics",
-            "version": "2.0.3"
+            "version": "2.0.8"
           },
           {
             "name": "@edge-runtime/cookies",
@@ -2285,8 +2308,28 @@
             "version": "1.0.0"
           },
           {
+            "name": "@img/sharp-libvips-linux-x64",
+            "version": "1.2.4"
+          },
+          {
+            "name": "@img/sharp-libvips-linuxmusl-x64",
+            "version": "1.2.4"
+          },
+          {
+            "name": "@img/sharp-linux-x64",
+            "version": "0.34.5"
+          },
+          {
+            "name": "@img/sharp-linuxmusl-x64",
+            "version": "0.34.5"
+          },
+          {
             "name": "@isaacs/fs-minipass",
             "version": "4.0.1"
+          },
+          {
+            "name": "@jridgewell/sourcemap-codec",
+            "version": "1.5.5"
           },
           {
             "name": "@js-sdsl/ordered-map",
@@ -2298,7 +2341,7 @@
           },
           {
             "name": "@next/env",
-            "version": "15.5.7"
+            "version": "15.5.11"
           },
           {
             "name": "@protobufjs/aspromise",
@@ -2345,6 +2388,10 @@
             "version": "5.6.0"
           },
           {
+            "name": "@so-ric/colorspace",
+            "version": "1.1.6"
+          },
+          {
             "name": "@swc/helpers",
             "version": "0.5.15"
           },
@@ -2353,8 +2400,52 @@
             "version": "5.0.1"
           },
           {
+            "name": "@testing-library/dom",
+            "version": "10.4.1"
+          },
+          {
+            "name": "@testing-library/react",
+            "version": "16.3.2"
+          },
+          {
+            "name": "@vitest/expect",
+            "version": "3.2.4"
+          },
+          {
+            "name": "@vitest/pretty-format",
+            "version": "3.2.4"
+          },
+          {
+            "name": "@vitest/runner",
+            "version": "3.2.4"
+          },
+          {
+            "name": "@vitest/snapshot",
+            "version": "3.2.4"
+          },
+          {
+            "name": "@vitest/spy",
+            "version": "3.2.4"
+          },
+          {
+            "name": "@vitest/utils",
+            "version": "3.2.4"
+          },
+          {
+            "name": "ansi-regex",
+            "version": "5.0.1"
+          },
+          {
+            "name": "ansi-styles",
+            "version": "5.2.0"
+          },
+          {
             "name": "any-promise",
             "version": "1.3.0"
+          },
+          {
+            "name": "aria-query",
+            "version": "5.3.0"
           },
           {
             "name": "asn1",
@@ -2366,7 +2457,7 @@
           },
           {
             "name": "async-mutex",
-            "version": "0.3.2"
+            "version": "0.5.0"
           },
           {
             "name": "barse",
@@ -2390,7 +2481,11 @@
           },
           {
             "name": "caniuse-lite",
-            "version": "1.0.30001759"
+            "version": "1.0.30001760"
+          },
+          {
+            "name": "chai",
+            "version": "5.3.3"
           },
           {
             "name": "chownr",
@@ -2403,26 +2498,6 @@
           {
             "name": "client-only",
             "version": "0.0.1"
-          },
-          {
-            "name": "color",
-            "version": "3.2.1"
-          },
-          {
-            "name": "color-convert",
-            "version": "1.9.3"
-          },
-          {
-            "name": "color-name",
-            "version": "1.1.3"
-          },
-          {
-            "name": "color-string",
-            "version": "1.9.1"
-          },
-          {
-            "name": "colorspace",
-            "version": "1.1.4"
           },
           {
             "name": "compare-versions",
@@ -2438,7 +2513,7 @@
           },
           {
             "name": "corepack",
-            "version": "0.34.5"
+            "version": "0.34.6"
           },
           {
             "name": "cpu-features",
@@ -2446,7 +2521,7 @@
           },
           {
             "name": "debug",
-            "version": "3.2.7"
+            "version": "4.4.1"
           },
           {
             "name": "decompress-response",
@@ -2473,6 +2548,10 @@
             "version": "4.0.7"
           },
           {
+            "name": "dom-accessibility-api",
+            "version": "0.5.16"
+          },
+          {
             "name": "enabled",
             "version": "2.0.0"
           },
@@ -2483,6 +2562,10 @@
           {
             "name": "event-to-promise",
             "version": "0.7.0"
+          },
+          {
+            "name": "expect-type",
+            "version": "1.3.0"
           },
           {
             "name": "fast-xml-parser",
@@ -2534,7 +2617,7 @@
           },
           {
             "name": "homepage",
-            "version": "1.7.0"
+            "version": "1.10.1"
           },
           {
             "name": "html-parse-stringify",
@@ -2569,10 +2652,6 @@
             "version": "2.0.4"
           },
           {
-            "name": "is-arrayish",
-            "version": "0.3.2"
-          },
-          {
             "name": "is-stream",
             "version": "2.0.1"
           },
@@ -2589,8 +2668,12 @@
             "version": "5.10.0"
           },
           {
+            "name": "js-tokens",
+            "version": "9.0.1"
+          },
+          {
             "name": "js-yaml",
-            "version": "4.1.0"
+            "version": "4.1.1"
           },
           {
             "name": "json-buffer",
@@ -2625,12 +2708,24 @@
             "version": "5.3.2"
           },
           {
+            "name": "loupe",
+            "version": "3.2.1"
+          },
+          {
             "name": "lowercase-keys",
             "version": "3.0.0"
           },
           {
             "name": "luxon",
             "version": "3.6.1"
+          },
+          {
+            "name": "lz-string",
+            "version": "1.5.0"
+          },
+          {
+            "name": "magic-string",
+            "version": "0.30.21"
           },
           {
             "name": "memory-cache",
@@ -2670,7 +2765,7 @@
           },
           {
             "name": "next",
-            "version": "15.5.7"
+            "version": "15.5.11"
           },
           {
             "name": "next-i18next",
@@ -2705,6 +2800,10 @@
             "version": "3.0.0"
           },
           {
+            "name": "pathe",
+            "version": "2.0.3"
+          },
+          {
             "name": "picocolors",
             "version": "1.1.1"
           },
@@ -2715,6 +2814,10 @@
           {
             "name": "postcss",
             "version": "8.4.31"
+          },
+          {
+            "name": "pretty-format",
+            "version": "27.5.1"
           },
           {
             "name": "process-nextick-args",
@@ -2805,10 +2908,6 @@
             "version": "0.34.5"
           },
           {
-            "name": "simple-swizzle",
-            "version": "0.2.2"
-          },
-          {
             "name": "source-map-js",
             "version": "1.2.1"
           },
@@ -2837,6 +2936,10 @@
             "version": "0.10.31"
           },
           {
+            "name": "strip-literal",
+            "version": "3.1.0"
+          },
+          {
             "name": "strnum",
             "version": "2.1.1"
           },
@@ -2850,7 +2953,7 @@
           },
           {
             "name": "swr",
-            "version": "2.3.3"
+            "version": "2.4.0"
           },
           {
             "name": "systeminformation",
@@ -2873,8 +2976,12 @@
             "version": "2.2.6"
           },
           {
-            "name": "text-hex",
-            "version": "1.0.0"
+            "name": "tinyrainbow",
+            "version": "2.0.0"
+          },
+          {
+            "name": "tinyspy",
+            "version": "4.0.4"
           },
           {
             "name": "tldts",
@@ -2914,11 +3021,11 @@
           },
           {
             "name": "urbackup-server-api",
-            "version": "0.8.9"
+            "version": "0.91.0"
           },
           {
             "name": "use-sync-external-store",
-            "version": "1.5.0"
+            "version": "1.6.0"
           },
           {
             "name": "util-deprecate",
@@ -2931,6 +3038,10 @@
           {
             "name": "varint",
             "version": "6.0.0"
+          },
+          {
+            "name": "vitest",
+            "version": "3.2.4"
           },
           {
             "name": "void-elements",
@@ -2946,7 +3057,7 @@
           },
           {
             "name": "winston",
-            "version": "3.17.0"
+            "version": "3.19.0"
           },
           {
             "name": "winston-transport",
@@ -2958,7 +3069,7 @@
           },
           {
             "name": "ws",
-            "version": "8.18.0"
+            "version": "8.18.3"
           },
           {
             "name": "xml-js",
@@ -2982,17 +3093,18 @@
         "ruby": [],
         "rust": []
       },
+      "source": "pkg",
       "summary": {
-        "freebsd": 52,
         "dotnet": 0,
+        "freebsd": 58,
         "go": 0,
         "java": 0,
-        "node": 183,
+        "node": 205,
         "php": 0,
         "python": 0,
         "ruby": 0,
         "rust": 0,
-        "total": 235
+        "total": 263
       }
     }
   }
