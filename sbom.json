@@ -1,11 +1,11 @@
 {
-  "generated": "2026-04-26T21:54:22Z",
+  "generated": "2026-05-01T07:23:01Z",
   "image": "homepage",
   "tags": {
     "latest": {
       "app_version": "1.12.3",
       "arch": "amd64",
-      "generated": "2026-04-26T21:52:42Z",
+      "generated": "2026-05-01T07:19:24Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -944,7 +944,7 @@
     "pkg": {
       "app_version": "1.10.1",
       "arch": "amd64",
-      "generated": "2026-04-26T21:53:10Z",
+      "generated": "2026-05-01T07:20:25Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2027,7 +2027,7 @@
     "pkg-latest": {
       "app_version": "1.12.3",
       "arch": "amd64",
-      "generated": "2026-04-26T21:52:13Z",
+      "generated": "2026-05-01T07:21:46Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2217,7 +2217,7 @@
           },
           {
             "name": "merve",
-            "version": "1.2.2"
+            "version": "1.2.2_1"
           },
           {
             "name": "nbytes",
@@ -2245,7 +2245,7 @@
           },
           {
             "name": "simdutf",
-            "version": "8.2.0"
+            "version": "9.0.0"
           },
           {
             "name": "skalibs",
