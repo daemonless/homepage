@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-06T23:08:53Z",
+  "generated": "2026-05-09T07:16:43Z",
   "image": "homepage",
   "tags": {
     "latest": {
-      "app_version": "1.12.3",
+      "app_version": "1.13.0",
       "arch": "amd64",
-      "generated": "2026-05-06T23:06:32Z",
+      "generated": "2026-05-09T07:14:19Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -251,7 +251,7 @@
           },
           {
             "name": "@grpc/grpc-js",
-            "version": "1.13.4"
+            "version": "1.14.3"
           },
           {
             "name": "@grpc/proto-loader",
@@ -287,7 +287,7 @@
           },
           {
             "name": "@next/env",
-            "version": "16.1.7"
+            "version": "16.2.4"
           },
           {
             "name": "@protobufjs/aspromise",
@@ -367,7 +367,7 @@
           },
           {
             "name": "baseline-browser-mapping",
-            "version": "2.10.8"
+            "version": "2.10.27"
           },
           {
             "name": "bcrypt-pbkdf",
@@ -387,7 +387,7 @@
           },
           {
             "name": "caniuse-lite",
-            "version": "1.0.30001780"
+            "version": "1.0.30001791"
           },
           {
             "name": "chownr",
@@ -443,11 +443,11 @@
           },
           {
             "name": "docker-modem",
-            "version": "5.0.6"
+            "version": "5.0.7"
           },
           {
             "name": "dockerode",
-            "version": "4.0.7"
+            "version": "4.0.10"
           },
           {
             "name": "enabled",
@@ -475,7 +475,7 @@
           },
           {
             "name": "follow-redirects",
-            "version": "1.15.11"
+            "version": "1.16.0"
           },
           {
             "name": "form-data-encoder",
@@ -511,7 +511,7 @@
           },
           {
             "name": "homepage",
-            "version": "1.12.3"
+            "version": "1.13.0"
           },
           {
             "name": "html-parse-stringify",
@@ -527,11 +527,11 @@
           },
           {
             "name": "i18next",
-            "version": "25.8.0"
+            "version": "25.10.9"
           },
           {
             "name": "i18next-fs-backend",
-            "version": "2.6.1"
+            "version": "2.6.4"
           },
           {
             "name": "ical.js",
@@ -571,7 +571,7 @@
           },
           {
             "name": "json-rpc-2.0",
-            "version": "1.7.0"
+            "version": "1.7.1"
           },
           {
             "name": "jsonpath-plus",
@@ -627,11 +627,11 @@
           },
           {
             "name": "nanoid",
-            "version": "3.3.11"
+            "version": "3.3.12"
           },
           {
             "name": "next",
-            "version": "16.1.7"
+            "version": "16.2.4"
           },
           {
             "name": "next-i18next",
@@ -683,11 +683,11 @@
           },
           {
             "name": "protobufjs",
-            "version": "7.5.3"
+            "version": "7.5.5"
           },
           {
             "name": "pump",
-            "version": "3.0.3"
+            "version": "3.0.4"
           },
           {
             "name": "quick-lru",
@@ -695,11 +695,11 @@
           },
           {
             "name": "react",
-            "version": "19.2.4"
+            "version": "19.2.5"
           },
           {
             "name": "react-dom",
-            "version": "19.2.4"
+            "version": "19.2.5"
           },
           {
             "name": "react-i18next",
@@ -771,7 +771,7 @@
           },
           {
             "name": "ssh2",
-            "version": "1.16.0"
+            "version": "1.17.0"
           },
           {
             "name": "stack-trace",
@@ -815,7 +815,7 @@
           },
           {
             "name": "tar-fs",
-            "version": "2.1.3"
+            "version": "2.1.4"
           },
           {
             "name": "tar-stream",
@@ -856,10 +856,6 @@
           {
             "name": "tweetnacl",
             "version": "0.14.5"
-          },
-          {
-            "name": "typescript",
-            "version": "5.7.3"
           },
           {
             "name": "urbackup-server-api",
@@ -933,18 +929,18 @@
         "freebsd": 52,
         "go": 0,
         "java": 0,
-        "node": 175,
+        "node": 174,
         "php": 0,
         "python": 0,
         "ruby": 0,
         "rust": 0,
-        "total": 227
+        "total": 226
       }
     },
     "pkg": {
       "app_version": "1.10.1",
       "arch": "amd64",
-      "generated": "2026-05-06T23:01:59Z",
+      "generated": "2026-05-09T07:15:33Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2027,7 +2023,7 @@
     "pkg-latest": {
       "app_version": "1.12.3",
       "arch": "amd64",
-      "generated": "2026-05-06T23:03:51Z",
+      "generated": "2026-05-09T07:15:11Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
