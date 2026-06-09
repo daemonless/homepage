@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-01T21:35:56Z",
+  "generated": "2026-06-09T21:15:09Z",
   "image": "homepage",
   "tags": {
     "latest": {
-      "app_version": "1.13.1",
+      "app_version": "1.13.2",
       "arch": "amd64",
-      "generated": "2026-06-01T21:34:37Z",
+      "generated": "2026-06-09T21:12:45Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -251,7 +251,7 @@
           },
           {
             "name": "@grpc/grpc-js",
-            "version": "1.14.3"
+            "version": "1.14.4"
           },
           {
             "name": "@grpc/proto-loader",
@@ -287,7 +287,11 @@
           },
           {
             "name": "@next/env",
-            "version": "16.2.4"
+            "version": "16.2.6"
+          },
+          {
+            "name": "@nodable/entities",
+            "version": "2.1.1"
           },
           {
             "name": "@protobufjs/aspromise",
@@ -299,15 +303,15 @@
           },
           {
             "name": "@protobufjs/codegen",
-            "version": "2.0.4"
+            "version": "2.0.5"
           },
           {
             "name": "@protobufjs/eventemitter",
-            "version": "1.1.0"
+            "version": "1.1.1"
           },
           {
             "name": "@protobufjs/fetch",
-            "version": "1.1.0"
+            "version": "1.1.1"
           },
           {
             "name": "@protobufjs/float",
@@ -315,7 +319,7 @@
           },
           {
             "name": "@protobufjs/inquire",
-            "version": "1.1.0"
+            "version": "1.1.2"
           },
           {
             "name": "@protobufjs/path",
@@ -327,7 +331,7 @@
           },
           {
             "name": "@protobufjs/utf8",
-            "version": "1.1.0"
+            "version": "1.1.1"
           },
           {
             "name": "@sindresorhus/is",
@@ -367,7 +371,7 @@
           },
           {
             "name": "baseline-browser-mapping",
-            "version": "2.10.27"
+            "version": "2.10.29"
           },
           {
             "name": "bcrypt-pbkdf",
@@ -387,7 +391,7 @@
           },
           {
             "name": "caniuse-lite",
-            "version": "1.0.30001791"
+            "version": "1.0.30001792"
           },
           {
             "name": "chownr",
@@ -404,10 +408,6 @@
           {
             "name": "compare-versions",
             "version": "6.1.1"
-          },
-          {
-            "name": "core-js",
-            "version": "3.48.0"
           },
           {
             "name": "core-util-is",
@@ -447,7 +447,7 @@
           },
           {
             "name": "dockerode",
-            "version": "4.0.10"
+            "version": "5.0.0"
           },
           {
             "name": "enabled",
@@ -462,8 +462,12 @@
             "version": "0.7.0"
           },
           {
+            "name": "fast-xml-builder",
+            "version": "1.2.0"
+          },
+          {
             "name": "fast-xml-parser",
-            "version": "5.2.5"
+            "version": "5.8.0"
           },
           {
             "name": "fecha",
@@ -487,7 +491,7 @@
           },
           {
             "name": "gamedig",
-            "version": "5.3.2"
+            "version": "5.3.3"
           },
           {
             "name": "gbxremote",
@@ -511,7 +515,7 @@
           },
           {
             "name": "homepage",
-            "version": "1.13.1"
+            "version": "1.13.2"
           },
           {
             "name": "html-parse-stringify",
@@ -527,11 +531,11 @@
           },
           {
             "name": "i18next",
-            "version": "25.10.9"
+            "version": "26.3.0"
           },
           {
-            "name": "i18next-fs-backend",
-            "version": "2.6.4"
+            "name": "i18next-resources-to-backend",
+            "version": "1.2.1"
           },
           {
             "name": "ical.js",
@@ -539,7 +543,7 @@
           },
           {
             "name": "iconv-lite",
-            "version": "0.7.0"
+            "version": "0.7.2"
           },
           {
             "name": "inherits",
@@ -603,7 +607,7 @@
           },
           {
             "name": "luxon",
-            "version": "3.6.1"
+            "version": "3.7.2"
           },
           {
             "name": "memory-cache",
@@ -631,11 +635,11 @@
           },
           {
             "name": "next",
-            "version": "16.2.4"
+            "version": "16.2.6"
           },
           {
             "name": "next-i18next",
-            "version": "15.4.3"
+            "version": "16.0.7"
           },
           {
             "name": "node-fetch",
@@ -643,7 +647,7 @@
           },
           {
             "name": "normalize-url",
-            "version": "8.1.0"
+            "version": "8.1.1"
           },
           {
             "name": "oauth4webapi",
@@ -666,6 +670,10 @@
             "version": "3.0.0"
           },
           {
+            "name": "path-expression-matcher",
+            "version": "1.5.0"
+          },
+          {
             "name": "picocolors",
             "version": "1.1.1"
           },
@@ -683,7 +691,7 @@
           },
           {
             "name": "protobufjs",
-            "version": "7.5.5"
+            "version": "7.6.2"
           },
           {
             "name": "pump",
@@ -755,7 +763,7 @@
           },
           {
             "name": "semver",
-            "version": "7.7.4"
+            "version": "7.8.0"
           },
           {
             "name": "sharp",
@@ -791,7 +799,7 @@
           },
           {
             "name": "strnum",
-            "version": "2.1.1"
+            "version": "2.3.0"
           },
           {
             "name": "styled-jsx",
@@ -807,7 +815,7 @@
           },
           {
             "name": "systeminformation",
-            "version": "5.30.8"
+            "version": "5.31.6"
           },
           {
             "name": "tar",
@@ -823,7 +831,7 @@
           },
           {
             "name": "telnet-client",
-            "version": "2.2.6"
+            "version": "2.2.13"
           },
           {
             "name": "tldts",
@@ -870,10 +878,6 @@
             "version": "1.0.2"
           },
           {
-            "name": "uuid",
-            "version": "10.0.0"
-          },
-          {
             "name": "varint",
             "version": "6.0.0"
           },
@@ -903,11 +907,15 @@
           },
           {
             "name": "ws",
-            "version": "8.18.3"
+            "version": "8.20.1"
           },
           {
             "name": "xml-js",
             "version": "1.6.11"
+          },
+          {
+            "name": "xml-naming",
+            "version": "0.1.0"
           },
           {
             "name": "xmlbuilder",
@@ -929,18 +937,18 @@
         "freebsd": 52,
         "go": 0,
         "java": 0,
-        "node": 174,
+        "node": 176,
         "php": 0,
         "python": 0,
         "ruby": 0,
         "rust": 0,
-        "total": 226
+        "total": 228
       }
     },
     "pkg": {
       "app_version": "1.10.1",
       "arch": "amd64",
-      "generated": "2026-06-01T21:34:42Z",
+      "generated": "2026-06-09T21:13:54Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2023,7 +2031,7 @@
     "pkg-latest": {
       "app_version": "1.12.3",
       "arch": "amd64",
-      "generated": "2026-06-01T21:33:43Z",
+      "generated": "2026-06-09T21:12:44Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2189,7 +2197,7 @@
           },
           {
             "name": "libedit",
-            "version": "3.1.20251016_1,1"
+            "version": "3.1.20260512,1"
           },
           {
             "name": "liblz4",
