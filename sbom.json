@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-21T07:48:36Z",
+  "generated": "2026-08-21T21:09:52Z",
   "image": "homepage",
   "tags": {
     "latest": {
-      "app_version": "2.1.0",
+      "app_version": "2.1.2",
       "arch": "amd64",
-      "generated": "2026-08-21T07:47:42Z",
+      "generated": "2026-08-21T21:09:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -482,7 +482,7 @@
           {
             "name": "@kubernetes/client-node",
             "purl": "",
-            "version": "1.4.0"
+            "version": "2.0.0"
           },
           {
             "name": "@next/env",
@@ -597,7 +597,7 @@
           {
             "name": "agent-base",
             "purl": "",
-            "version": "7.1.4"
+            "version": "9.0.0"
           },
           {
             "name": "any-promise",
@@ -847,7 +847,7 @@
           {
             "name": "homepage",
             "purl": "",
-            "version": "2.1.0"
+            "version": "2.1.2"
           },
           {
             "name": "hpagent",
@@ -897,7 +897,7 @@
           {
             "name": "ip-address",
             "purl": "",
-            "version": "10.4.0"
+            "version": "10.5.0"
           },
           {
             "name": "is-stream",
@@ -922,7 +922,7 @@
           {
             "name": "js-yaml",
             "purl": "",
-            "version": "4.3.1"
+            "version": "5.3.0"
           },
           {
             "name": "json-buffer",
@@ -1030,11 +1030,6 @@
             "version": "16.0.10"
           },
           {
-            "name": "node-fetch",
-            "purl": "",
-            "version": "2.7.0"
-          },
-          {
             "name": "normalize-url",
             "purl": "",
             "version": "8.1.1"
@@ -1047,7 +1042,7 @@
           {
             "name": "oauth4webapi",
             "purl": "",
-            "version": "3.8.6"
+            "version": "3.8.7"
           },
           {
             "name": "object-hash",
@@ -1232,7 +1227,7 @@
           {
             "name": "socks-proxy-agent",
             "purl": "",
-            "version": "8.0.5"
+            "version": "10.1.0"
           },
           {
             "name": "source-map-js",
@@ -1292,7 +1287,7 @@
           {
             "name": "swr",
             "purl": "",
-            "version": "2.5.0"
+            "version": "2.5.1"
           },
           {
             "name": "systeminformation",
@@ -1340,11 +1335,6 @@
             "version": "6.0.2"
           },
           {
-            "name": "tr46",
-            "purl": "",
-            "version": "0.0.3"
-          },
-          {
             "name": "triple-beam",
             "purl": "",
             "version": "1.4.1"
@@ -1358,6 +1348,11 @@
             "name": "tweetnacl",
             "purl": "",
             "version": "0.14.5"
+          },
+          {
+            "name": "undici",
+            "purl": "",
+            "version": "8.10.0"
           },
           {
             "name": "urbackup-server-api",
@@ -1393,16 +1388,6 @@
             "name": "vitest",
             "purl": "",
             "version": "4.1.10"
-          },
-          {
-            "name": "webidl-conversions",
-            "purl": "",
-            "version": "3.0.1"
-          },
-          {
-            "name": "whatwg-url",
-            "purl": "",
-            "version": "5.0.0"
           },
           {
             "name": "winston",
@@ -1461,18 +1446,18 @@
         "freebsd": 56,
         "go": 0,
         "java": 0,
-        "node": 208,
+        "node": 205,
         "php": 0,
         "python": 0,
         "ruby": 0,
         "rust": 0,
-        "total": 264
+        "total": 261
       }
     },
     "pkg": {
       "app_version": "1.12.3",
       "arch": "amd64",
-      "generated": "2026-08-21T07:43:53Z",
+      "generated": "2026-08-21T21:08:16Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2819,7 +2804,7 @@
     "pkg-latest": {
       "app_version": "1.13.2",
       "arch": "amd64",
-      "generated": "2026-08-21T07:43:55Z",
+      "generated": "2026-08-21T21:07:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
