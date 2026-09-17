@@ -7,6 +7,7 @@ Source: dbuild templates
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/daemonless/homepage/build.yaml?style=flat-square&label=Build&color=green)](https://github.com/daemonless/homepage/actions)
 [![Last Commit](https://img.shields.io/github/last-commit/daemonless/homepage?style=flat-square&label=Last+Commit&color=blue)](https://github.com/daemonless/homepage/commits)
+[![OCI Pulls](https://img.shields.io/docker/pulls/daemonless/homepage?style=flat-square&label=OCI+Pulls&color=blue)](https://hub.docker.com/r/daemonless/homepage)
 
 Modern, fully static, fast, secure and highly customizable application dashboard with integrations for over 100 services.
 
