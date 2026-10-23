@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-17T13:14:18Z",
+  "generated": "2026-10-23T07:25:13Z",
   "image": "homepage",
   "tags": {
     "latest": {
       "app_version": "2.6.0",
       "arch": "amd64",
-      "generated": "2026-10-17T13:13:15Z",
+      "generated": "2026-10-23T07:24:29Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -189,7 +189,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -238,7 +238,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -266,7 +266,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.130"
+            "version": "3.131"
           },
           {
             "licenses": [
@@ -274,13 +274,6 @@
             ],
             "name": "corepack",
             "version": "0.36.0"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "execline",
-            "version": "2.9.8.1"
           },
           {
             "licenses": [
@@ -377,25 +370,11 @@
           },
           {
             "licenses": [
-              "ISCL"
-            ],
-            "name": "s6",
-            "version": "2.14.0.1"
-          },
-          {
-            "licenses": [
               "MIT",
               "APACHE20"
             ],
             "name": "simdjson",
-            "version": "5.0.1"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "skalibs",
-            "version": "2.14.5.1"
+            "version": "5.0.5"
           },
           {
             "licenses": [
@@ -1382,7 +1361,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 58,
+        "freebsd": 55,
         "go": 0,
         "java": 0,
         "node": 190,
@@ -1390,13 +1369,13 @@
         "python": 0,
         "ruby": 0,
         "rust": 0,
-        "total": 248
+        "total": 245
       }
     },
     "pkg": {
       "app_version": "2.4.0",
       "arch": "amd64",
-      "generated": "2026-10-17T13:12:59Z",
+      "generated": "2026-10-23T07:24:20Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1580,7 +1559,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -1629,1480 +1608,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p4"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-zstd-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "MIT"
-            ],
-            "name": "brotli",
-            "version": "1.2.0,1"
-          },
-          {
-            "licenses": [
-              "MIT"
-            ],
-            "name": "c-ares",
-            "version": "1.34.8"
-          },
-          {
-            "licenses": [
-              "MPL20"
-            ],
-            "name": "ca_root_nss",
-            "version": "3.130"
-          },
-          {
-            "licenses": [
-              "MIT"
-            ],
-            "name": "corepack",
-            "version": "0.36.0"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "execline",
-            "version": "2.9.8.1"
-          },
-          {
-            "licenses": [
-              "GPLv3"
-            ],
-            "name": "homepage",
-            "version": "2.4.0"
-          },
-          {
-            "licenses": [
-              "ICU"
-            ],
-            "name": "icu",
-            "version": "76.1,1"
-          },
-          {
-            "licenses": [
-              "MIT"
-            ],
-            "name": "jq",
-            "version": "1.8.2"
-          },
-          {
-            "licenses": [
-              "MIT",
-              "APACHE20"
-            ],
-            "name": "libada",
-            "version": "3.4.4"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "libedit",
-            "version": "3.1.20260512,1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE",
-              "GPLv2"
-            ],
-            "name": "liblz4",
-            "version": "1.10.0_2,1"
-          },
-          {
-            "licenses": [
-              "MIT"
-            ],
-            "name": "libnghttp2",
-            "version": "1.70.0"
-          },
-          {
-            "licenses": [
-              "MIT"
-            ],
-            "name": "libnghttp3",
-            "version": "1.18.0"
-          },
-          {
-            "licenses": [
-              "MIT"
-            ],
-            "name": "libngtcp2",
-            "version": "1.25.0"
-          },
-          {
-            "licenses": [
-              "MIT"
-            ],
-            "name": "libuv",
-            "version": "1.52.1"
-          },
-          {
-            "licenses": [
-              "MIT"
-            ],
-            "name": "llhttp",
-            "version": "9.4.3"
-          },
-          {
-            "licenses": [
-              "MIT"
-            ],
-            "name": "node22",
-            "version": "22.23.2_1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "oniguruma",
-            "version": "6.9.10"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "pkg",
-            "version": "2.8.4"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "s6",
-            "version": "2.14.0.1"
-          },
-          {
-            "licenses": [
-              "MIT",
-              "APACHE20"
-            ],
-            "name": "simdjson",
-            "version": "5.0.1"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "skalibs",
-            "version": "2.14.5.1"
-          },
-          {
-            "licenses": [
-              "PD"
-            ],
-            "name": "sqlite3",
-            "version": "3.53.4,1"
-          },
-          {
-            "licenses": [
-              "MIT"
-            ],
-            "name": "uvwasi",
-            "version": "0.0.23"
-          },
-          {
-            "licenses": [
-              "GPLv2",
-              "BSD3CLAUSE"
-            ],
-            "name": "zstd",
-            "version": "1.5.7_2"
-          }
-        ],
-        "go": [],
-        "java": [],
-        "node": [
-          {
-            "name": "@babel/runtime",
-            "purl": "",
-            "version": "7.29.7"
-          },
-          {
-            "name": "@balena/dockerignore",
-            "purl": "",
-            "version": "1.0.2"
-          },
-          {
-            "name": "@colors/colors",
-            "purl": "",
-            "version": "1.6.0"
-          },
-          {
-            "name": "@dabh/diagnostics",
-            "purl": "",
-            "version": "2.0.8"
-          },
-          {
-            "name": "@edge-runtime/cookies",
-            "purl": "",
-            "version": "6.0.0"
-          },
-          {
-            "name": "@edge-runtime/ponyfill",
-            "purl": "",
-            "version": "4.0.0"
-          },
-          {
-            "name": "@edge-runtime/primitives",
-            "purl": "",
-            "version": "6.0.0"
-          },
-          {
-            "name": "@grpc/grpc-js",
-            "purl": "",
-            "version": "1.14.4"
-          },
-          {
-            "name": "@grpc/proto-loader",
-            "purl": "",
-            "version": "0.7.15"
-          },
-          {
-            "name": "@img/colour",
-            "purl": "",
-            "version": "1.1.0"
-          },
-          {
-            "name": "@img/sharp-libvips-linux-x64",
-            "purl": "",
-            "version": "1.3.3"
-          },
-          {
-            "name": "@img/sharp-linux-x64",
-            "purl": "",
-            "version": "0.35.4"
-          },
-          {
-            "name": "@jridgewell/sourcemap-codec",
-            "purl": "",
-            "version": "1.5.5"
-          },
-          {
-            "name": "@js-sdsl/ordered-map",
-            "purl": "",
-            "version": "4.4.2"
-          },
-          {
-            "name": "@kubernetes/client-node",
-            "purl": "",
-            "version": "2.0.0"
-          },
-          {
-            "name": "@next/env",
-            "purl": "",
-            "version": "16.3.3"
-          },
-          {
-            "name": "@nodable/entities",
-            "purl": "",
-            "version": "2.2.0"
-          },
-          {
-            "name": "@panva/hkdf",
-            "purl": "",
-            "version": "1.2.1"
-          },
-          {
-            "name": "@protobufjs/aspromise",
-            "purl": "",
-            "version": "1.1.2"
-          },
-          {
-            "name": "@protobufjs/base64",
-            "purl": "",
-            "version": "1.1.2"
-          },
-          {
-            "name": "@protobufjs/codegen",
-            "purl": "",
-            "version": "2.0.5"
-          },
-          {
-            "name": "@protobufjs/eventemitter",
-            "purl": "",
-            "version": "1.1.1"
-          },
-          {
-            "name": "@protobufjs/fetch",
-            "purl": "",
-            "version": "1.1.1"
-          },
-          {
-            "name": "@protobufjs/float",
-            "purl": "",
-            "version": "1.0.2"
-          },
-          {
-            "name": "@protobufjs/path",
-            "purl": "",
-            "version": "1.1.2"
-          },
-          {
-            "name": "@protobufjs/pool",
-            "purl": "",
-            "version": "1.1.0"
-          },
-          {
-            "name": "@protobufjs/utf8",
-            "purl": "",
-            "version": "1.1.2"
-          },
-          {
-            "name": "@sindresorhus/is",
-            "purl": "",
-            "version": "5.6.0"
-          },
-          {
-            "name": "@so-ric/colorspace",
-            "purl": "",
-            "version": "1.1.6"
-          },
-          {
-            "name": "@swc/helpers",
-            "purl": "",
-            "version": "0.5.23"
-          },
-          {
-            "name": "@szmarczak/http-timer",
-            "purl": "",
-            "version": "5.0.1"
-          },
-          {
-            "name": "@vitest/expect",
-            "purl": "",
-            "version": "4.1.10"
-          },
-          {
-            "name": "@vitest/pretty-format",
-            "purl": "",
-            "version": "4.1.10"
-          },
-          {
-            "name": "@vitest/runner",
-            "purl": "",
-            "version": "4.1.10"
-          },
-          {
-            "name": "@vitest/snapshot",
-            "purl": "",
-            "version": "4.1.10"
-          },
-          {
-            "name": "@vitest/spy",
-            "purl": "",
-            "version": "4.1.10"
-          },
-          {
-            "name": "@vitest/utils",
-            "purl": "",
-            "version": "4.1.10"
-          },
-          {
-            "name": "agent-base",
-            "purl": "",
-            "version": "9.0.0"
-          },
-          {
-            "name": "any-promise",
-            "purl": "",
-            "version": "1.3.0"
-          },
-          {
-            "name": "anynum",
-            "purl": "",
-            "version": "1.0.1"
-          },
-          {
-            "name": "asn1",
-            "purl": "",
-            "version": "0.2.6"
-          },
-          {
-            "name": "async",
-            "purl": "",
-            "version": "3.2.6"
-          },
-          {
-            "name": "async-mutex",
-            "purl": "",
-            "version": "0.5.0"
-          },
-          {
-            "name": "b4a",
-            "purl": "",
-            "version": "1.8.1"
-          },
-          {
-            "name": "bare-events",
-            "purl": "",
-            "version": "2.9.1"
-          },
-          {
-            "name": "barse",
-            "purl": "",
-            "version": "0.4.3"
-          },
-          {
-            "name": "baseline-browser-mapping",
-            "purl": "",
-            "version": "2.11.19"
-          },
-          {
-            "name": "bcrypt-pbkdf",
-            "purl": "",
-            "version": "1.0.2"
-          },
-          {
-            "name": "bl",
-            "purl": "",
-            "version": "4.1.0"
-          },
-          {
-            "name": "cacheable-lookup",
-            "purl": "",
-            "version": "7.0.0"
-          },
-          {
-            "name": "cacheable-request",
-            "purl": "",
-            "version": "10.2.14"
-          },
-          {
-            "name": "caniuse-lite",
-            "purl": "",
-            "version": "1.0.30001810"
-          },
-          {
-            "name": "chai",
-            "purl": "",
-            "version": "6.2.2"
-          },
-          {
-            "name": "chownr",
-            "purl": "",
-            "version": "1.1.4"
-          },
-          {
-            "name": "classnames",
-            "purl": "",
-            "version": "2.5.1"
-          },
-          {
-            "name": "client-only",
-            "purl": "",
-            "version": "0.0.1"
-          },
-          {
-            "name": "compare-versions",
-            "purl": "",
-            "version": "6.1.1"
-          },
-          {
-            "name": "cookie",
-            "purl": "",
-            "version": "0.7.2"
-          },
-          {
-            "name": "core-util-is",
-            "purl": "",
-            "version": "1.0.3"
-          },
-          {
-            "name": "corepack",
-            "purl": "",
-            "version": "0.36.0"
-          },
-          {
-            "name": "cpu-features",
-            "purl": "",
-            "version": "0.0.10"
-          },
-          {
-            "name": "debug",
-            "purl": "",
-            "version": "4.4.3"
-          },
-          {
-            "name": "decompress-response",
-            "purl": "",
-            "version": "6.0.0"
-          },
-          {
-            "name": "defer-to-connect",
-            "purl": "",
-            "version": "2.0.1"
-          },
-          {
-            "name": "dequal",
-            "purl": "",
-            "version": "2.0.3"
-          },
-          {
-            "name": "detect-libc",
-            "purl": "",
-            "version": "2.1.2"
-          },
-          {
-            "name": "docker-modem",
-            "purl": "",
-            "version": "5.0.7"
-          },
-          {
-            "name": "dockerode",
-            "purl": "",
-            "version": "5.0.1"
-          },
-          {
-            "name": "enabled",
-            "purl": "",
-            "version": "2.0.0"
-          },
-          {
-            "name": "end-of-stream",
-            "purl": "",
-            "version": "1.4.5"
-          },
-          {
-            "name": "event-to-promise",
-            "purl": "",
-            "version": "0.7.0"
-          },
-          {
-            "name": "events-universal",
-            "purl": "",
-            "version": "1.0.1"
-          },
-          {
-            "name": "expect-type",
-            "purl": "",
-            "version": "1.4.0"
-          },
-          {
-            "name": "fast-fifo",
-            "purl": "",
-            "version": "1.3.2"
-          },
-          {
-            "name": "fast-xml-builder",
-            "purl": "",
-            "version": "1.3.0"
-          },
-          {
-            "name": "fast-xml-parser",
-            "purl": "",
-            "version": "5.8.0"
-          },
-          {
-            "name": "fecha",
-            "purl": "",
-            "version": "4.2.3"
-          },
-          {
-            "name": "fn.name",
-            "purl": "",
-            "version": "1.1.0"
-          },
-          {
-            "name": "follow-redirects",
-            "purl": "",
-            "version": "1.16.0"
-          },
-          {
-            "name": "form-data-encoder",
-            "purl": "",
-            "version": "2.1.4"
-          },
-          {
-            "name": "fs-constants",
-            "purl": "",
-            "version": "1.0.0"
-          },
-          {
-            "name": "gamedig",
-            "purl": "",
-            "version": "5.3.3"
-          },
-          {
-            "name": "gbxremote",
-            "purl": "",
-            "version": "0.2.1"
-          },
-          {
-            "name": "get-stream",
-            "purl": "",
-            "version": "6.0.1"
-          },
-          {
-            "name": "got",
-            "purl": "",
-            "version": "13.0.0"
-          },
-          {
-            "name": "has-flag",
-            "purl": "",
-            "version": "4.0.0"
-          },
-          {
-            "name": "hoist-non-react-statics",
-            "purl": "",
-            "version": "3.3.2"
-          },
-          {
-            "name": "homepage",
-            "purl": "",
-            "version": "2.4.0"
-          },
-          {
-            "name": "hpagent",
-            "purl": "",
-            "version": "1.2.0"
-          },
-          {
-            "name": "html-parse-stringify",
-            "purl": "",
-            "version": "4.0.1"
-          },
-          {
-            "name": "http-cache-semantics",
-            "purl": "",
-            "version": "4.2.0"
-          },
-          {
-            "name": "http2-wrapper",
-            "purl": "",
-            "version": "2.2.1"
-          },
-          {
-            "name": "i18next",
-            "purl": "",
-            "version": "26.3.6"
-          },
-          {
-            "name": "i18next-resources-to-backend",
-            "purl": "",
-            "version": "1.2.3"
-          },
-          {
-            "name": "ical.js",
-            "purl": "",
-            "version": "2.2.1"
-          },
-          {
-            "name": "iconv-lite",
-            "purl": "",
-            "version": "0.7.2"
-          },
-          {
-            "name": "inherits",
-            "purl": "",
-            "version": "2.0.4"
-          },
-          {
-            "name": "ip-address",
-            "purl": "",
-            "version": "10.5.0"
-          },
-          {
-            "name": "is-stream",
-            "purl": "",
-            "version": "2.0.1"
-          },
-          {
-            "name": "isarray",
-            "purl": "",
-            "version": "0.0.1"
-          },
-          {
-            "name": "isomorphic-ws",
-            "purl": "",
-            "version": "5.0.0"
-          },
-          {
-            "name": "jose",
-            "purl": "",
-            "version": "4.15.9"
-          },
-          {
-            "name": "js-yaml",
-            "purl": "",
-            "version": "5.4.2"
-          },
-          {
-            "name": "json-buffer",
-            "purl": "",
-            "version": "3.0.1"
-          },
-          {
-            "name": "json-rpc-2.0",
-            "purl": "",
-            "version": "1.7.1"
-          },
-          {
-            "name": "jsonpath-plus",
-            "purl": "",
-            "version": "10.4.0"
-          },
-          {
-            "name": "keyv",
-            "purl": "",
-            "version": "4.5.4"
-          },
-          {
-            "name": "kuler",
-            "purl": "",
-            "version": "2.0.0"
-          },
-          {
-            "name": "lodash.camelcase",
-            "purl": "",
-            "version": "4.3.0"
-          },
-          {
-            "name": "logform",
-            "purl": "",
-            "version": "2.7.0"
-          },
-          {
-            "name": "long",
-            "purl": "",
-            "version": "5.3.2"
-          },
-          {
-            "name": "lowercase-keys",
-            "purl": "",
-            "version": "3.0.0"
-          },
-          {
-            "name": "lru-cache",
-            "purl": "",
-            "version": "6.0.0"
-          },
-          {
-            "name": "luxon",
-            "purl": "",
-            "version": "3.7.2"
-          },
-          {
-            "name": "magic-string",
-            "purl": "",
-            "version": "0.30.21"
-          },
-          {
-            "name": "memory-cache",
-            "purl": "",
-            "version": "0.2.0"
-          },
-          {
-            "name": "mimic-response",
-            "purl": "",
-            "version": "3.1.0"
-          },
-          {
-            "name": "minecraftstatuspinger",
-            "purl": "",
-            "version": "1.2.2"
-          },
-          {
-            "name": "mkdirp-classic",
-            "purl": "",
-            "version": "0.5.3"
-          },
-          {
-            "name": "ms",
-            "purl": "",
-            "version": "2.1.3"
-          },
-          {
-            "name": "nanoid",
-            "purl": "",
-            "version": "3.3.18"
-          },
-          {
-            "name": "next",
-            "purl": "",
-            "version": "16.3.3"
-          },
-          {
-            "name": "next-auth",
-            "purl": "",
-            "version": "4.24.15"
-          },
-          {
-            "name": "next-i18next",
-            "purl": "",
-            "version": "16.0.10"
-          },
-          {
-            "name": "normalize-url",
-            "purl": "",
-            "version": "8.1.1"
-          },
-          {
-            "name": "oauth",
-            "purl": "",
-            "version": "0.9.15"
-          },
-          {
-            "name": "oauth4webapi",
-            "purl": "",
-            "version": "3.8.7"
-          },
-          {
-            "name": "object-hash",
-            "purl": "",
-            "version": "2.2.0"
-          },
-          {
-            "name": "oidc-token-hash",
-            "purl": "",
-            "version": "5.2.0"
-          },
-          {
-            "name": "once",
-            "purl": "",
-            "version": "1.4.0"
-          },
-          {
-            "name": "one-time",
-            "purl": "",
-            "version": "1.0.0"
-          },
-          {
-            "name": "openid-client",
-            "purl": "",
-            "version": "5.7.1"
-          },
-          {
-            "name": "p-cancelable",
-            "purl": "",
-            "version": "3.0.0"
-          },
-          {
-            "name": "path-expression-matcher",
-            "purl": "",
-            "version": "1.6.2"
-          },
-          {
-            "name": "pathe",
-            "purl": "",
-            "version": "2.0.3"
-          },
-          {
-            "name": "picocolors",
-            "purl": "",
-            "version": "1.1.1"
-          },
-          {
-            "name": "ping",
-            "purl": "",
-            "version": "1.0.0"
-          },
-          {
-            "name": "postcss",
-            "purl": "",
-            "version": "8.5.23"
-          },
-          {
-            "name": "preact",
-            "purl": "",
-            "version": "10.29.8"
-          },
-          {
-            "name": "preact-render-to-string",
-            "purl": "",
-            "version": "5.2.6"
-          },
-          {
-            "name": "process-nextick-args",
-            "purl": "",
-            "version": "2.0.1"
-          },
-          {
-            "name": "protobufjs",
-            "purl": "",
-            "version": "7.6.5"
-          },
-          {
-            "name": "pump",
-            "purl": "",
-            "version": "3.0.4"
-          },
-          {
-            "name": "quick-lru",
-            "purl": "",
-            "version": "5.1.1"
-          },
-          {
-            "name": "react",
-            "purl": "",
-            "version": "19.2.8"
-          },
-          {
-            "name": "react-dom",
-            "purl": "",
-            "version": "19.2.8"
-          },
-          {
-            "name": "react-i18next",
-            "purl": "",
-            "version": "17.0.12"
-          },
-          {
-            "name": "react-is",
-            "purl": "",
-            "version": "16.13.1"
-          },
-          {
-            "name": "react-refresh",
-            "purl": "",
-            "version": "0.12.0"
-          },
-          {
-            "name": "readable-stream",
-            "purl": "",
-            "version": "1.0.34"
-          },
-          {
-            "name": "regenerator-runtime",
-            "purl": "",
-            "version": "0.13.4"
-          },
-          {
-            "name": "resolve-alpn",
-            "purl": "",
-            "version": "1.2.1"
-          },
-          {
-            "name": "responselike",
-            "purl": "",
-            "version": "3.0.0"
-          },
-          {
-            "name": "rfc4648",
-            "purl": "",
-            "version": "1.5.4"
-          },
-          {
-            "name": "safe-buffer",
-            "purl": "",
-            "version": "5.1.2"
-          },
-          {
-            "name": "safe-stable-stringify",
-            "purl": "",
-            "version": "2.5.0"
-          },
-          {
-            "name": "safer-buffer",
-            "purl": "",
-            "version": "2.1.2"
-          },
-          {
-            "name": "sax",
-            "purl": "",
-            "version": "1.2.4"
-          },
-          {
-            "name": "seek-bzip",
-            "purl": "",
-            "version": "2.0.0"
-          },
-          {
-            "name": "semver",
-            "purl": "",
-            "version": "7.8.5"
-          },
-          {
-            "name": "sharp",
-            "purl": "",
-            "version": "0.35.4"
-          },
-          {
-            "name": "smart-buffer",
-            "purl": "",
-            "version": "4.2.0"
-          },
-          {
-            "name": "socks",
-            "purl": "",
-            "version": "2.8.9"
-          },
-          {
-            "name": "socks-proxy-agent",
-            "purl": "",
-            "version": "10.1.0"
-          },
-          {
-            "name": "source-map-js",
-            "purl": "",
-            "version": "1.2.1"
-          },
-          {
-            "name": "split-ca",
-            "purl": "",
-            "version": "1.0.1"
-          },
-          {
-            "name": "ssh2",
-            "purl": "",
-            "version": "1.17.0"
-          },
-          {
-            "name": "stack-trace",
-            "purl": "",
-            "version": "0.0.10"
-          },
-          {
-            "name": "stream-buffers",
-            "purl": "",
-            "version": "3.0.3"
-          },
-          {
-            "name": "streamx",
-            "purl": "",
-            "version": "2.28.0"
-          },
-          {
-            "name": "string-to-stream",
-            "purl": "",
-            "version": "1.1.1"
-          },
-          {
-            "name": "string_decoder",
-            "purl": "",
-            "version": "0.10.31"
-          },
-          {
-            "name": "strnum",
-            "purl": "",
-            "version": "2.4.1"
-          },
-          {
-            "name": "styled-jsx",
-            "purl": "",
-            "version": "5.1.6"
-          },
-          {
-            "name": "supports-color",
-            "purl": "",
-            "version": "7.2.0"
-          },
-          {
-            "name": "swr",
-            "purl": "",
-            "version": "2.5.1"
-          },
-          {
-            "name": "systeminformation",
-            "purl": "",
-            "version": "5.33.1"
-          },
-          {
-            "name": "tar-fs",
-            "purl": "",
-            "version": "2.1.5"
-          },
-          {
-            "name": "tar-stream",
-            "purl": "",
-            "version": "2.2.0"
-          },
-          {
-            "name": "telnet-client",
-            "purl": "",
-            "version": "2.2.13"
-          },
-          {
-            "name": "text-decoder",
-            "purl": "",
-            "version": "1.2.7"
-          },
-          {
-            "name": "tinybench",
-            "purl": "",
-            "version": "2.9.0"
-          },
-          {
-            "name": "tinyrainbow",
-            "purl": "",
-            "version": "3.1.1"
-          },
-          {
-            "name": "tldts",
-            "purl": "",
-            "version": "7.4.10"
-          },
-          {
-            "name": "tough-cookie",
-            "purl": "",
-            "version": "6.0.2"
-          },
-          {
-            "name": "triple-beam",
-            "purl": "",
-            "version": "1.4.1"
-          },
-          {
-            "name": "tslib",
-            "purl": "",
-            "version": "2.8.1"
-          },
-          {
-            "name": "tweetnacl",
-            "purl": "",
-            "version": "0.14.5"
-          },
-          {
-            "name": "undici",
-            "purl": "",
-            "version": "8.10.0"
-          },
-          {
-            "name": "urbackup-server-api",
-            "purl": "",
-            "version": "0.92.6"
-          },
-          {
-            "name": "use-sync-external-store",
-            "purl": "",
-            "version": "1.6.0"
-          },
-          {
-            "name": "util-deprecate",
-            "purl": "",
-            "version": "1.0.2"
-          },
-          {
-            "name": "uuid",
-            "purl": "",
-            "version": "11.1.1"
-          },
-          {
-            "name": "varint",
-            "purl": "",
-            "version": "6.0.0"
-          },
-          {
-            "name": "vite",
-            "purl": "",
-            "version": "8.2.1"
-          },
-          {
-            "name": "vitest",
-            "purl": "",
-            "version": "4.1.10"
-          },
-          {
-            "name": "winston",
-            "purl": "",
-            "version": "3.19.0"
-          },
-          {
-            "name": "winston-transport",
-            "purl": "",
-            "version": "4.9.0"
-          },
-          {
-            "name": "wrappy",
-            "purl": "",
-            "version": "1.0.2"
-          },
-          {
-            "name": "ws",
-            "purl": "",
-            "version": "8.21.2"
-          },
-          {
-            "name": "xml-js",
-            "purl": "",
-            "version": "1.6.11"
-          },
-          {
-            "name": "xml-naming",
-            "purl": "",
-            "version": "0.1.0"
-          },
-          {
-            "name": "xmlbuilder",
-            "purl": "",
-            "version": "8.2.2"
-          },
-          {
-            "name": "xmlrpc",
-            "purl": "",
-            "version": "1.3.2"
-          },
-          {
-            "name": "yallist",
-            "purl": "",
-            "version": "4.0.0"
-          }
-        ],
-        "php": [],
-        "python": [],
-        "ruby": [],
-        "rust": []
-      },
-      "source": "pkg",
-      "summary": {
-        "dotnet": 0,
-        "freebsd": 59,
-        "go": 0,
-        "java": 0,
-        "node": 205,
-        "php": 0,
-        "python": 0,
-        "ruby": 0,
-        "rust": 0,
-        "total": 264
-      }
-    },
-    "pkg-latest": {
-      "app_version": "2.4.0",
-      "arch": "amd64",
-      "generated": "2026-10-17T13:13:40Z",
-      "packages": {
-        "dotnet": [],
-        "freebsd": [
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-audit-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-blocklist",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-bzip2-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-certctl",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-clibs",
-            "version": "15.1p4"
-          },
-          {
-            "licenses": [
-              "CDDL-1.0"
-            ],
-            "name": "FreeBSD-ctf-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD-3-Clause"
-            ],
-            "name": "FreeBSD-dhclient",
-            "version": "15.1p4"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-fetch",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-kerberos-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-libarchive",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-libbsdstat",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-libcasper",
-            "version": "15.1p4"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-libexecinfo",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-libldns",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-libmagic",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-libucl",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-locales",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-mtree",
-            "version": "15.1p2"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-ncurses-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-openssl",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-openssl-lib",
-            "version": "15.1p4"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-pam-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-pkg-bootstrap",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-rc",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-resolvconf",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-runtime",
-            "version": "15.1p4"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-tcpd",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-ufs-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-utilities",
-            "version": "15.1p4"
-          },
-          {
-            "licenses": [
-              "BSD2CLAUSE"
-            ],
-            "name": "FreeBSD-xz-lib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "CDDL-1.0"
-            ],
-            "name": "FreeBSD-zfs-lib",
-            "version": "15.1p1"
-          },
-          {
-            "licenses": [
-              "Zlib"
-            ],
-            "name": "FreeBSD-zlib",
-            "version": "15.1"
-          },
-          {
-            "licenses": [
-              "PD"
-            ],
-            "name": "FreeBSD-zoneinfo",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -3141,13 +1647,6 @@
           },
           {
             "licenses": [
-              "ISCL"
-            ],
-            "name": "execline",
-            "version": "2.9.8.1"
-          },
-          {
-            "licenses": [
               "GPLv3"
             ],
             "name": "homepage",
@@ -3248,25 +1747,11 @@
           },
           {
             "licenses": [
-              "ISCL"
-            ],
-            "name": "s6",
-            "version": "2.14.0.1"
-          },
-          {
-            "licenses": [
               "MIT",
               "APACHE20"
             ],
             "name": "simdjson",
-            "version": "5.0.1"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "skalibs",
-            "version": "2.14.5.1"
+            "version": "5.0.5"
           },
           {
             "licenses": [
@@ -4328,7 +2813,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 59,
+        "freebsd": 56,
         "go": 0,
         "java": 0,
         "node": 205,
@@ -4336,7 +2821,1459 @@
         "python": 0,
         "ruby": 0,
         "rust": 0,
-        "total": 264
+        "total": 261
+      }
+    },
+    "pkg-latest": {
+      "app_version": "2.4.0",
+      "arch": "amd64",
+      "generated": "2026-10-23T07:24:24Z",
+      "packages": {
+        "dotnet": [],
+        "freebsd": [
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-audit-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-blocklist",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-bzip2-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-certctl",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-clibs",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "CDDL-1.0"
+            ],
+            "name": "FreeBSD-ctf-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD-3-Clause"
+            ],
+            "name": "FreeBSD-dhclient",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-fetch",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-kerberos-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libarchive",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libbsdstat",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libcasper",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libexecinfo",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libldns",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libmagic",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libucl",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-locales",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-mtree",
+            "version": "15.1p2"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-ncurses-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-openssl",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-openssl-lib",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-pam-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-pkg-bootstrap",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-rc",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-resolvconf",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-runtime",
+            "version": "15.1p5"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-tcpd",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-ufs-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-utilities",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-xz-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "CDDL-1.0"
+            ],
+            "name": "FreeBSD-zfs-lib",
+            "version": "15.1p1"
+          },
+          {
+            "licenses": [
+              "Zlib"
+            ],
+            "name": "FreeBSD-zlib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "PD"
+            ],
+            "name": "FreeBSD-zoneinfo",
+            "version": "15.1p5"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-zstd-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "MIT"
+            ],
+            "name": "brotli",
+            "version": "1.2.0,1"
+          },
+          {
+            "licenses": [
+              "MIT"
+            ],
+            "name": "c-ares",
+            "version": "1.34.8"
+          },
+          {
+            "licenses": [
+              "MPL20"
+            ],
+            "name": "ca_root_nss",
+            "version": "3.131"
+          },
+          {
+            "licenses": [
+              "MIT"
+            ],
+            "name": "corepack",
+            "version": "0.36.0"
+          },
+          {
+            "licenses": [
+              "GPLv3"
+            ],
+            "name": "homepage",
+            "version": "2.4.0"
+          },
+          {
+            "licenses": [
+              "ICU"
+            ],
+            "name": "icu",
+            "version": "76.1,1"
+          },
+          {
+            "licenses": [
+              "MIT"
+            ],
+            "name": "jq",
+            "version": "1.8.2"
+          },
+          {
+            "licenses": [
+              "MIT",
+              "APACHE20"
+            ],
+            "name": "libada",
+            "version": "3.4.4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "libedit",
+            "version": "3.1.20260512,1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE",
+              "GPLv2"
+            ],
+            "name": "liblz4",
+            "version": "1.10.0_2,1"
+          },
+          {
+            "licenses": [
+              "MIT"
+            ],
+            "name": "libnghttp2",
+            "version": "1.70.0"
+          },
+          {
+            "licenses": [
+              "MIT"
+            ],
+            "name": "libnghttp3",
+            "version": "1.18.0"
+          },
+          {
+            "licenses": [
+              "MIT"
+            ],
+            "name": "libngtcp2",
+            "version": "1.25.0"
+          },
+          {
+            "licenses": [
+              "MIT"
+            ],
+            "name": "libuv",
+            "version": "1.52.1"
+          },
+          {
+            "licenses": [
+              "MIT"
+            ],
+            "name": "llhttp",
+            "version": "9.4.3"
+          },
+          {
+            "licenses": [
+              "MIT"
+            ],
+            "name": "node22",
+            "version": "22.23.2_2"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "oniguruma",
+            "version": "6.9.10"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "pkg",
+            "version": "2.8.4"
+          },
+          {
+            "licenses": [
+              "MIT",
+              "APACHE20"
+            ],
+            "name": "simdjson",
+            "version": "5.0.5"
+          },
+          {
+            "licenses": [
+              "PD"
+            ],
+            "name": "sqlite3",
+            "version": "3.53.4,1"
+          },
+          {
+            "licenses": [
+              "MIT"
+            ],
+            "name": "uvwasi",
+            "version": "0.0.23"
+          },
+          {
+            "licenses": [
+              "GPLv2",
+              "BSD3CLAUSE"
+            ],
+            "name": "zstd",
+            "version": "1.5.7_2"
+          }
+        ],
+        "go": [],
+        "java": [],
+        "node": [
+          {
+            "name": "@babel/runtime",
+            "purl": "",
+            "version": "7.29.7"
+          },
+          {
+            "name": "@balena/dockerignore",
+            "purl": "",
+            "version": "1.0.2"
+          },
+          {
+            "name": "@colors/colors",
+            "purl": "",
+            "version": "1.6.0"
+          },
+          {
+            "name": "@dabh/diagnostics",
+            "purl": "",
+            "version": "2.0.8"
+          },
+          {
+            "name": "@edge-runtime/cookies",
+            "purl": "",
+            "version": "6.0.0"
+          },
+          {
+            "name": "@edge-runtime/ponyfill",
+            "purl": "",
+            "version": "4.0.0"
+          },
+          {
+            "name": "@edge-runtime/primitives",
+            "purl": "",
+            "version": "6.0.0"
+          },
+          {
+            "name": "@grpc/grpc-js",
+            "purl": "",
+            "version": "1.14.4"
+          },
+          {
+            "name": "@grpc/proto-loader",
+            "purl": "",
+            "version": "0.7.15"
+          },
+          {
+            "name": "@img/colour",
+            "purl": "",
+            "version": "1.1.0"
+          },
+          {
+            "name": "@img/sharp-libvips-linux-x64",
+            "purl": "",
+            "version": "1.3.3"
+          },
+          {
+            "name": "@img/sharp-linux-x64",
+            "purl": "",
+            "version": "0.35.4"
+          },
+          {
+            "name": "@jridgewell/sourcemap-codec",
+            "purl": "",
+            "version": "1.5.5"
+          },
+          {
+            "name": "@js-sdsl/ordered-map",
+            "purl": "",
+            "version": "4.4.2"
+          },
+          {
+            "name": "@kubernetes/client-node",
+            "purl": "",
+            "version": "2.0.0"
+          },
+          {
+            "name": "@next/env",
+            "purl": "",
+            "version": "16.3.3"
+          },
+          {
+            "name": "@nodable/entities",
+            "purl": "",
+            "version": "2.2.0"
+          },
+          {
+            "name": "@panva/hkdf",
+            "purl": "",
+            "version": "1.2.1"
+          },
+          {
+            "name": "@protobufjs/aspromise",
+            "purl": "",
+            "version": "1.1.2"
+          },
+          {
+            "name": "@protobufjs/base64",
+            "purl": "",
+            "version": "1.1.2"
+          },
+          {
+            "name": "@protobufjs/codegen",
+            "purl": "",
+            "version": "2.0.5"
+          },
+          {
+            "name": "@protobufjs/eventemitter",
+            "purl": "",
+            "version": "1.1.1"
+          },
+          {
+            "name": "@protobufjs/fetch",
+            "purl": "",
+            "version": "1.1.1"
+          },
+          {
+            "name": "@protobufjs/float",
+            "purl": "",
+            "version": "1.0.2"
+          },
+          {
+            "name": "@protobufjs/path",
+            "purl": "",
+            "version": "1.1.2"
+          },
+          {
+            "name": "@protobufjs/pool",
+            "purl": "",
+            "version": "1.1.0"
+          },
+          {
+            "name": "@protobufjs/utf8",
+            "purl": "",
+            "version": "1.1.2"
+          },
+          {
+            "name": "@sindresorhus/is",
+            "purl": "",
+            "version": "5.6.0"
+          },
+          {
+            "name": "@so-ric/colorspace",
+            "purl": "",
+            "version": "1.1.6"
+          },
+          {
+            "name": "@swc/helpers",
+            "purl": "",
+            "version": "0.5.23"
+          },
+          {
+            "name": "@szmarczak/http-timer",
+            "purl": "",
+            "version": "5.0.1"
+          },
+          {
+            "name": "@vitest/expect",
+            "purl": "",
+            "version": "4.1.10"
+          },
+          {
+            "name": "@vitest/pretty-format",
+            "purl": "",
+            "version": "4.1.10"
+          },
+          {
+            "name": "@vitest/runner",
+            "purl": "",
+            "version": "4.1.10"
+          },
+          {
+            "name": "@vitest/snapshot",
+            "purl": "",
+            "version": "4.1.10"
+          },
+          {
+            "name": "@vitest/spy",
+            "purl": "",
+            "version": "4.1.10"
+          },
+          {
+            "name": "@vitest/utils",
+            "purl": "",
+            "version": "4.1.10"
+          },
+          {
+            "name": "agent-base",
+            "purl": "",
+            "version": "9.0.0"
+          },
+          {
+            "name": "any-promise",
+            "purl": "",
+            "version": "1.3.0"
+          },
+          {
+            "name": "anynum",
+            "purl": "",
+            "version": "1.0.1"
+          },
+          {
+            "name": "asn1",
+            "purl": "",
+            "version": "0.2.6"
+          },
+          {
+            "name": "async",
+            "purl": "",
+            "version": "3.2.6"
+          },
+          {
+            "name": "async-mutex",
+            "purl": "",
+            "version": "0.5.0"
+          },
+          {
+            "name": "b4a",
+            "purl": "",
+            "version": "1.8.1"
+          },
+          {
+            "name": "bare-events",
+            "purl": "",
+            "version": "2.9.1"
+          },
+          {
+            "name": "barse",
+            "purl": "",
+            "version": "0.4.3"
+          },
+          {
+            "name": "baseline-browser-mapping",
+            "purl": "",
+            "version": "2.11.19"
+          },
+          {
+            "name": "bcrypt-pbkdf",
+            "purl": "",
+            "version": "1.0.2"
+          },
+          {
+            "name": "bl",
+            "purl": "",
+            "version": "4.1.0"
+          },
+          {
+            "name": "cacheable-lookup",
+            "purl": "",
+            "version": "7.0.0"
+          },
+          {
+            "name": "cacheable-request",
+            "purl": "",
+            "version": "10.2.14"
+          },
+          {
+            "name": "caniuse-lite",
+            "purl": "",
+            "version": "1.0.30001810"
+          },
+          {
+            "name": "chai",
+            "purl": "",
+            "version": "6.2.2"
+          },
+          {
+            "name": "chownr",
+            "purl": "",
+            "version": "1.1.4"
+          },
+          {
+            "name": "classnames",
+            "purl": "",
+            "version": "2.5.1"
+          },
+          {
+            "name": "client-only",
+            "purl": "",
+            "version": "0.0.1"
+          },
+          {
+            "name": "compare-versions",
+            "purl": "",
+            "version": "6.1.1"
+          },
+          {
+            "name": "cookie",
+            "purl": "",
+            "version": "0.7.2"
+          },
+          {
+            "name": "core-util-is",
+            "purl": "",
+            "version": "1.0.3"
+          },
+          {
+            "name": "corepack",
+            "purl": "",
+            "version": "0.36.0"
+          },
+          {
+            "name": "cpu-features",
+            "purl": "",
+            "version": "0.0.10"
+          },
+          {
+            "name": "debug",
+            "purl": "",
+            "version": "4.4.3"
+          },
+          {
+            "name": "decompress-response",
+            "purl": "",
+            "version": "6.0.0"
+          },
+          {
+            "name": "defer-to-connect",
+            "purl": "",
+            "version": "2.0.1"
+          },
+          {
+            "name": "dequal",
+            "purl": "",
+            "version": "2.0.3"
+          },
+          {
+            "name": "detect-libc",
+            "purl": "",
+            "version": "2.1.2"
+          },
+          {
+            "name": "docker-modem",
+            "purl": "",
+            "version": "5.0.7"
+          },
+          {
+            "name": "dockerode",
+            "purl": "",
+            "version": "5.0.1"
+          },
+          {
+            "name": "enabled",
+            "purl": "",
+            "version": "2.0.0"
+          },
+          {
+            "name": "end-of-stream",
+            "purl": "",
+            "version": "1.4.5"
+          },
+          {
+            "name": "event-to-promise",
+            "purl": "",
+            "version": "0.7.0"
+          },
+          {
+            "name": "events-universal",
+            "purl": "",
+            "version": "1.0.1"
+          },
+          {
+            "name": "expect-type",
+            "purl": "",
+            "version": "1.4.0"
+          },
+          {
+            "name": "fast-fifo",
+            "purl": "",
+            "version": "1.3.2"
+          },
+          {
+            "name": "fast-xml-builder",
+            "purl": "",
+            "version": "1.3.0"
+          },
+          {
+            "name": "fast-xml-parser",
+            "purl": "",
+            "version": "5.8.0"
+          },
+          {
+            "name": "fecha",
+            "purl": "",
+            "version": "4.2.3"
+          },
+          {
+            "name": "fn.name",
+            "purl": "",
+            "version": "1.1.0"
+          },
+          {
+            "name": "follow-redirects",
+            "purl": "",
+            "version": "1.16.0"
+          },
+          {
+            "name": "form-data-encoder",
+            "purl": "",
+            "version": "2.1.4"
+          },
+          {
+            "name": "fs-constants",
+            "purl": "",
+            "version": "1.0.0"
+          },
+          {
+            "name": "gamedig",
+            "purl": "",
+            "version": "5.3.3"
+          },
+          {
+            "name": "gbxremote",
+            "purl": "",
+            "version": "0.2.1"
+          },
+          {
+            "name": "get-stream",
+            "purl": "",
+            "version": "6.0.1"
+          },
+          {
+            "name": "got",
+            "purl": "",
+            "version": "13.0.0"
+          },
+          {
+            "name": "has-flag",
+            "purl": "",
+            "version": "4.0.0"
+          },
+          {
+            "name": "hoist-non-react-statics",
+            "purl": "",
+            "version": "3.3.2"
+          },
+          {
+            "name": "homepage",
+            "purl": "",
+            "version": "2.4.0"
+          },
+          {
+            "name": "hpagent",
+            "purl": "",
+            "version": "1.2.0"
+          },
+          {
+            "name": "html-parse-stringify",
+            "purl": "",
+            "version": "4.0.1"
+          },
+          {
+            "name": "http-cache-semantics",
+            "purl": "",
+            "version": "4.2.0"
+          },
+          {
+            "name": "http2-wrapper",
+            "purl": "",
+            "version": "2.2.1"
+          },
+          {
+            "name": "i18next",
+            "purl": "",
+            "version": "26.3.6"
+          },
+          {
+            "name": "i18next-resources-to-backend",
+            "purl": "",
+            "version": "1.2.3"
+          },
+          {
+            "name": "ical.js",
+            "purl": "",
+            "version": "2.2.1"
+          },
+          {
+            "name": "iconv-lite",
+            "purl": "",
+            "version": "0.7.2"
+          },
+          {
+            "name": "inherits",
+            "purl": "",
+            "version": "2.0.4"
+          },
+          {
+            "name": "ip-address",
+            "purl": "",
+            "version": "10.5.0"
+          },
+          {
+            "name": "is-stream",
+            "purl": "",
+            "version": "2.0.1"
+          },
+          {
+            "name": "isarray",
+            "purl": "",
+            "version": "0.0.1"
+          },
+          {
+            "name": "isomorphic-ws",
+            "purl": "",
+            "version": "5.0.0"
+          },
+          {
+            "name": "jose",
+            "purl": "",
+            "version": "4.15.9"
+          },
+          {
+            "name": "js-yaml",
+            "purl": "",
+            "version": "5.4.2"
+          },
+          {
+            "name": "json-buffer",
+            "purl": "",
+            "version": "3.0.1"
+          },
+          {
+            "name": "json-rpc-2.0",
+            "purl": "",
+            "version": "1.7.1"
+          },
+          {
+            "name": "jsonpath-plus",
+            "purl": "",
+            "version": "10.4.0"
+          },
+          {
+            "name": "keyv",
+            "purl": "",
+            "version": "4.5.4"
+          },
+          {
+            "name": "kuler",
+            "purl": "",
+            "version": "2.0.0"
+          },
+          {
+            "name": "lodash.camelcase",
+            "purl": "",
+            "version": "4.3.0"
+          },
+          {
+            "name": "logform",
+            "purl": "",
+            "version": "2.7.0"
+          },
+          {
+            "name": "long",
+            "purl": "",
+            "version": "5.3.2"
+          },
+          {
+            "name": "lowercase-keys",
+            "purl": "",
+            "version": "3.0.0"
+          },
+          {
+            "name": "lru-cache",
+            "purl": "",
+            "version": "6.0.0"
+          },
+          {
+            "name": "luxon",
+            "purl": "",
+            "version": "3.7.2"
+          },
+          {
+            "name": "magic-string",
+            "purl": "",
+            "version": "0.30.21"
+          },
+          {
+            "name": "memory-cache",
+            "purl": "",
+            "version": "0.2.0"
+          },
+          {
+            "name": "mimic-response",
+            "purl": "",
+            "version": "3.1.0"
+          },
+          {
+            "name": "minecraftstatuspinger",
+            "purl": "",
+            "version": "1.2.2"
+          },
+          {
+            "name": "mkdirp-classic",
+            "purl": "",
+            "version": "0.5.3"
+          },
+          {
+            "name": "ms",
+            "purl": "",
+            "version": "2.1.3"
+          },
+          {
+            "name": "nanoid",
+            "purl": "",
+            "version": "3.3.18"
+          },
+          {
+            "name": "next",
+            "purl": "",
+            "version": "16.3.3"
+          },
+          {
+            "name": "next-auth",
+            "purl": "",
+            "version": "4.24.15"
+          },
+          {
+            "name": "next-i18next",
+            "purl": "",
+            "version": "16.0.10"
+          },
+          {
+            "name": "normalize-url",
+            "purl": "",
+            "version": "8.1.1"
+          },
+          {
+            "name": "oauth",
+            "purl": "",
+            "version": "0.9.15"
+          },
+          {
+            "name": "oauth4webapi",
+            "purl": "",
+            "version": "3.8.7"
+          },
+          {
+            "name": "object-hash",
+            "purl": "",
+            "version": "2.2.0"
+          },
+          {
+            "name": "oidc-token-hash",
+            "purl": "",
+            "version": "5.2.0"
+          },
+          {
+            "name": "once",
+            "purl": "",
+            "version": "1.4.0"
+          },
+          {
+            "name": "one-time",
+            "purl": "",
+            "version": "1.0.0"
+          },
+          {
+            "name": "openid-client",
+            "purl": "",
+            "version": "5.7.1"
+          },
+          {
+            "name": "p-cancelable",
+            "purl": "",
+            "version": "3.0.0"
+          },
+          {
+            "name": "path-expression-matcher",
+            "purl": "",
+            "version": "1.6.2"
+          },
+          {
+            "name": "pathe",
+            "purl": "",
+            "version": "2.0.3"
+          },
+          {
+            "name": "picocolors",
+            "purl": "",
+            "version": "1.1.1"
+          },
+          {
+            "name": "ping",
+            "purl": "",
+            "version": "1.0.0"
+          },
+          {
+            "name": "postcss",
+            "purl": "",
+            "version": "8.5.23"
+          },
+          {
+            "name": "preact",
+            "purl": "",
+            "version": "10.29.8"
+          },
+          {
+            "name": "preact-render-to-string",
+            "purl": "",
+            "version": "5.2.6"
+          },
+          {
+            "name": "process-nextick-args",
+            "purl": "",
+            "version": "2.0.1"
+          },
+          {
+            "name": "protobufjs",
+            "purl": "",
+            "version": "7.6.5"
+          },
+          {
+            "name": "pump",
+            "purl": "",
+            "version": "3.0.4"
+          },
+          {
+            "name": "quick-lru",
+            "purl": "",
+            "version": "5.1.1"
+          },
+          {
+            "name": "react",
+            "purl": "",
+            "version": "19.2.8"
+          },
+          {
+            "name": "react-dom",
+            "purl": "",
+            "version": "19.2.8"
+          },
+          {
+            "name": "react-i18next",
+            "purl": "",
+            "version": "17.0.12"
+          },
+          {
+            "name": "react-is",
+            "purl": "",
+            "version": "16.13.1"
+          },
+          {
+            "name": "react-refresh",
+            "purl": "",
+            "version": "0.12.0"
+          },
+          {
+            "name": "readable-stream",
+            "purl": "",
+            "version": "1.0.34"
+          },
+          {
+            "name": "regenerator-runtime",
+            "purl": "",
+            "version": "0.13.4"
+          },
+          {
+            "name": "resolve-alpn",
+            "purl": "",
+            "version": "1.2.1"
+          },
+          {
+            "name": "responselike",
+            "purl": "",
+            "version": "3.0.0"
+          },
+          {
+            "name": "rfc4648",
+            "purl": "",
+            "version": "1.5.4"
+          },
+          {
+            "name": "safe-buffer",
+            "purl": "",
+            "version": "5.1.2"
+          },
+          {
+            "name": "safe-stable-stringify",
+            "purl": "",
+            "version": "2.5.0"
+          },
+          {
+            "name": "safer-buffer",
+            "purl": "",
+            "version": "2.1.2"
+          },
+          {
+            "name": "sax",
+            "purl": "",
+            "version": "1.2.4"
+          },
+          {
+            "name": "seek-bzip",
+            "purl": "",
+            "version": "2.0.0"
+          },
+          {
+            "name": "semver",
+            "purl": "",
+            "version": "7.8.5"
+          },
+          {
+            "name": "sharp",
+            "purl": "",
+            "version": "0.35.4"
+          },
+          {
+            "name": "smart-buffer",
+            "purl": "",
+            "version": "4.2.0"
+          },
+          {
+            "name": "socks",
+            "purl": "",
+            "version": "2.8.9"
+          },
+          {
+            "name": "socks-proxy-agent",
+            "purl": "",
+            "version": "10.1.0"
+          },
+          {
+            "name": "source-map-js",
+            "purl": "",
+            "version": "1.2.1"
+          },
+          {
+            "name": "split-ca",
+            "purl": "",
+            "version": "1.0.1"
+          },
+          {
+            "name": "ssh2",
+            "purl": "",
+            "version": "1.17.0"
+          },
+          {
+            "name": "stack-trace",
+            "purl": "",
+            "version": "0.0.10"
+          },
+          {
+            "name": "stream-buffers",
+            "purl": "",
+            "version": "3.0.3"
+          },
+          {
+            "name": "streamx",
+            "purl": "",
+            "version": "2.28.0"
+          },
+          {
+            "name": "string-to-stream",
+            "purl": "",
+            "version": "1.1.1"
+          },
+          {
+            "name": "string_decoder",
+            "purl": "",
+            "version": "0.10.31"
+          },
+          {
+            "name": "strnum",
+            "purl": "",
+            "version": "2.4.1"
+          },
+          {
+            "name": "styled-jsx",
+            "purl": "",
+            "version": "5.1.6"
+          },
+          {
+            "name": "supports-color",
+            "purl": "",
+            "version": "7.2.0"
+          },
+          {
+            "name": "swr",
+            "purl": "",
+            "version": "2.5.1"
+          },
+          {
+            "name": "systeminformation",
+            "purl": "",
+            "version": "5.33.1"
+          },
+          {
+            "name": "tar-fs",
+            "purl": "",
+            "version": "2.1.5"
+          },
+          {
+            "name": "tar-stream",
+            "purl": "",
+            "version": "2.2.0"
+          },
+          {
+            "name": "telnet-client",
+            "purl": "",
+            "version": "2.2.13"
+          },
+          {
+            "name": "text-decoder",
+            "purl": "",
+            "version": "1.2.7"
+          },
+          {
+            "name": "tinybench",
+            "purl": "",
+            "version": "2.9.0"
+          },
+          {
+            "name": "tinyrainbow",
+            "purl": "",
+            "version": "3.1.1"
+          },
+          {
+            "name": "tldts",
+            "purl": "",
+            "version": "7.4.10"
+          },
+          {
+            "name": "tough-cookie",
+            "purl": "",
+            "version": "6.0.2"
+          },
+          {
+            "name": "triple-beam",
+            "purl": "",
+            "version": "1.4.1"
+          },
+          {
+            "name": "tslib",
+            "purl": "",
+            "version": "2.8.1"
+          },
+          {
+            "name": "tweetnacl",
+            "purl": "",
+            "version": "0.14.5"
+          },
+          {
+            "name": "undici",
+            "purl": "",
+            "version": "8.10.0"
+          },
+          {
+            "name": "urbackup-server-api",
+            "purl": "",
+            "version": "0.92.6"
+          },
+          {
+            "name": "use-sync-external-store",
+            "purl": "",
+            "version": "1.6.0"
+          },
+          {
+            "name": "util-deprecate",
+            "purl": "",
+            "version": "1.0.2"
+          },
+          {
+            "name": "uuid",
+            "purl": "",
+            "version": "11.1.1"
+          },
+          {
+            "name": "varint",
+            "purl": "",
+            "version": "6.0.0"
+          },
+          {
+            "name": "vite",
+            "purl": "",
+            "version": "8.2.1"
+          },
+          {
+            "name": "vitest",
+            "purl": "",
+            "version": "4.1.10"
+          },
+          {
+            "name": "winston",
+            "purl": "",
+            "version": "3.19.0"
+          },
+          {
+            "name": "winston-transport",
+            "purl": "",
+            "version": "4.9.0"
+          },
+          {
+            "name": "wrappy",
+            "purl": "",
+            "version": "1.0.2"
+          },
+          {
+            "name": "ws",
+            "purl": "",
+            "version": "8.21.2"
+          },
+          {
+            "name": "xml-js",
+            "purl": "",
+            "version": "1.6.11"
+          },
+          {
+            "name": "xml-naming",
+            "purl": "",
+            "version": "0.1.0"
+          },
+          {
+            "name": "xmlbuilder",
+            "purl": "",
+            "version": "8.2.2"
+          },
+          {
+            "name": "xmlrpc",
+            "purl": "",
+            "version": "1.3.2"
+          },
+          {
+            "name": "yallist",
+            "purl": "",
+            "version": "4.0.0"
+          }
+        ],
+        "php": [],
+        "python": [],
+        "ruby": [],
+        "rust": []
+      },
+      "source": "pkg",
+      "summary": {
+        "dotnet": 0,
+        "freebsd": 56,
+        "go": 0,
+        "java": 0,
+        "node": 205,
+        "php": 0,
+        "python": 0,
+        "ruby": 0,
+        "rust": 0,
+        "total": 261
       }
     }
   }
