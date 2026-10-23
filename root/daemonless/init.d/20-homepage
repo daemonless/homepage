@@ -2,7 +2,7 @@
 # Homepage config initialization
 
 # Determine app directory (source build vs pkg)
-if [ -d /app ]; then
+if [ -f /app/server.js ]; then
     APP_DIR=/app
     SKELETON_DIR=/app/src/skeleton
 else

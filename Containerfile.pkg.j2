@@ -1,5 +1,5 @@
 ARG BASE_VERSION=15
-FROM ghcr.io/daemonless/base:${BASE_VERSION}
+FROM ghcr.io/daemonless/base-exec:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
 ARG PKG_NAME=homepage
@@ -47,9 +47,9 @@ RUN mkdir -p /config && \
 
 # Copy service definition
 COPY root/ /
+RUN chmod +x /daemonless/libexec/homepage /daemonless/init.d/*
 
-# Make scripts executable
-RUN chmod +x /etc/services.d/homepage/run /etc/cont-init.d/* 2>/dev/null || true
+CMD ["/daemonless/libexec/homepage"]
 
 # --- Expose (Injected by Generator) ---
 {%- if ports %}

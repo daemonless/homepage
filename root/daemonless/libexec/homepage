@@ -1,5 +1,5 @@
 #!/bin/sh
-# Homepage s6 service
+# Start homepage; /init has already dropped to the run user.
 
 export HOME=/config
 export PATH="/usr/local/bin:/usr/bin:/bin"
@@ -16,4 +16,4 @@ fi
 cd "$APP_DIR"
 
 # Both pkg and source builds have server.js
-exec /usr/local/bin/s6-setuidgid bsd /usr/local/bin/node server.js
+exec /usr/local/bin/node server.js
