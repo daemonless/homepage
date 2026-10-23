@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-23T07:25:13Z",
+  "generated": "2026-10-23T18:22:30Z",
   "image": "homepage",
   "tags": {
     "latest": {
-      "app_version": "2.6.0",
+      "app_version": "2.7.0",
       "arch": "amd64",
-      "generated": "2026-10-23T07:24:29Z",
+      "generated": "2026-10-23T18:16:16Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -475,7 +475,7 @@
           {
             "name": "@next/env",
             "purl": "",
-            "version": "16.3.8"
+            "version": "16.4.1"
           },
           {
             "name": "@nodable/entities",
@@ -750,7 +750,7 @@
           {
             "name": "follow-redirects",
             "purl": "",
-            "version": "1.16.0"
+            "version": "1.16.1"
           },
           {
             "name": "form-data-encoder",
@@ -795,7 +795,7 @@
           {
             "name": "homepage",
             "purl": "",
-            "version": "2.6.0"
+            "version": "2.7.0"
           },
           {
             "name": "hpagent",
@@ -845,7 +845,7 @@
           {
             "name": "ip-address",
             "purl": "",
-            "version": "10.7.2"
+            "version": "10.7.4"
           },
           {
             "name": "is-stream",
@@ -870,7 +870,7 @@
           {
             "name": "js-yaml",
             "purl": "",
-            "version": "5.4.3"
+            "version": "5.5.0"
           },
           {
             "name": "json-buffer",
@@ -955,12 +955,12 @@
           {
             "name": "nanoid",
             "purl": "",
-            "version": "3.3.18"
+            "version": "3.3.20"
           },
           {
             "name": "next",
             "purl": "",
-            "version": "16.3.8"
+            "version": "16.4.1"
           },
           {
             "name": "next-auth",
@@ -1375,7 +1375,7 @@
     "pkg": {
       "app_version": "2.4.0",
       "arch": "amd64",
-      "generated": "2026-10-23T07:24:20Z",
+      "generated": "2026-10-23T18:08:40Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2827,7 +2827,7 @@
     "pkg-latest": {
       "app_version": "2.4.0",
       "arch": "amd64",
-      "generated": "2026-10-23T07:24:24Z",
+      "generated": "2026-10-23T18:10:35Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3081,7 +3081,7 @@
               "MIT"
             ],
             "name": "c-ares",
-            "version": "1.34.8"
+            "version": "1.34.9"
           },
           {
             "licenses": [
